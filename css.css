@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+body {
+background: url(https://upload.wikimedia.org/wikipedia/commons/b/b3/Leo_2019-12-31.jpg) top center fixed;
+background-size: 100%;
+color: #111111;
+font-family: "Schoolbell", cursive !important;
+}
+
+
+.container.main {
+    background-color: rgba(65,75,76,0.77) !important;
+    box-shadow: none !important;
+}
+
+
+.col-md-9 {
+    background-color: rgba(1,0,255,0);
+}
+
+
+
+
+h1 {
+    color: #C19A6B;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.navbar {
+    background-color: #111111;
+}
+
+
+.navbar li a {
+    color: #1E2952 !important;
+}
+
+
+.breadcrumb {
+    background-color: #111111;
+}
+.breadcrumb > li {
+    color: #414A4C !important;
+}
+
+.panel {
+    background-color: #111111 !important;
+    border: none !important;
+    color: #111111 !important;
+    box-shadow: none !important;
+}
+
+
+.progress div {
+    color: #414A4C !important;
+}
+
+.progress-bar {
+    background: #1E2952;
+}
+
+.progress {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.topbar {
+    background: #111111;
+    color: #1E2952 !important;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 4px
+}
+
+
+h2 {
+    color: #C19A6B !important;
+}
+
+
+a {
+    color: #8C92AC !important;
+}
+
+
+.breadcrumb a {
+    color: #8C92AC !important;
+}
+
+
+.breadcrumb>li+li:before {
+    color: #111111 !important;
+}
+
+
+h3 {
+    color: #C19A6B !important;
+}
+
+
+#commentBox {
+    background: rgba(65,75,76,0.77);
+    border: none !important;
+}
+
+
+#comment {
+    border-radius: 4px;
+    border: none !important;
+}
+
+
+.top.center {
+    background: #111111;
+    color: #111111;
+}
+
+
+#about .bottom {
+    background: #111111;
+}
+
+
+#about {
+    border: none;
+    background-color: rgba(65,75,76,0.77);
+}
+
+
+#about .left {
+    background: #111111;
+    color: #111111;
+}
+
+
+#about .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+#player {
+    border: none;
+    background-color: rgba(65,75,76,0.77);
+}
+
+
+#player .top {
+    background: #111111;
+    color: #111111;
+}
+
+
+#player .left {
+    background: #111111;
+    color: #111111;
+}
+
+
+#player .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+hr {
+    display: none !important;
+}
+
+
+.cave-grid {
+    border: none;
+    color: #111111 !important;
+    background: #111111;
+}
+
+
+.mound-grid {
+    border: none;
+    color: #111111 !important;
+    background: #111111;
+}
+
+
+#sparring th {
+    background: #111111;
+    color: #111111;
+}
+
+
+#sparring {
+    border: none;
+    background-color: rgba(65,75,76,0.77);
+}
+
+
+.right_odd {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+
+a:hover {
+    color: #848482 !important;
+}
+
+
+#allies .top {
+    background: #111111 !important;
+    color: #111111 !important;
+}
+
+
+#allies {
+    background-color: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+#allies .bottom {
+    background: #111111;
+}
+
+
+#clans .top {
+    background: #111111;
+    color: #111111;
+}
+
+
+#clans {
+    background-color: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+.dynastylist .left {
+    background: #111111;
+}
+
+
+.col .left {
+    background: #111111;
+}
+
+
+#editdetailspanel .table {
+    background-color: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+#editdetailspanel .b {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.table > tbody > tr > th {
+    background: #111111;
+    color: #111111;
+}
+
+
+form > .table {
+    border: none;
+}
+
+
+#editdetailspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+
+#accountoptionspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+
+#accountoptionspanel .table {
+    background: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+#accountoptionspanel .left {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.item-header {
+    background: #111111;
+    color: #111111;
+}
+
+
+.floatleft.small {
+   background: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+
+#changepasswordpanel .bottom {
+    background: #111111;
+}
+
+
+#changepasswordpanel .b {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+#changepasswordpanel .table {
+    background: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+small.text-muted {
+    color: #111111 !important;
+}
+
+
+ {
+    color: #111111 !important;
+}
+
+
+div#chatMessageContainer {
+	color: #111111 !important;
+}
+
+
+.right_odd {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+
+#attack {
+    background: rgba(65,75,76,0.77);
+    border: none;
+}
+
+
+#attack .bottom {
+    background: #111111 !important;
+}
+
+
+.white.visible-sm {
+    color: #111111 !important;
+    text-shadow: none !important;
+}
+
+
+.navbar li a:hover {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+
+.clear.visible-sm {
+    display: none !important;
+}
+
+.alert {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border: none !important;
+    color: #111111 !important;
+}
+
+.b {
+    color: #1E2952 !important;
+}
+
+#clans .left {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.panel-default .small {
+    color: #1E2952 !important;
+}
+
+.col-xs-12 .visible-lg .small {
+    color: #414A4C !important;
+}
+
+#about .left b {
+    color: #414A4C !important;
+}
+
+.top > small {
+    color: #1E2952 !important;
+}
+
+#player b {
+    color: #414A4C !important;
+}
+
+.cave-grid {
+    color: #1E2952 !important;
+}
+
+.mound-grid {
+    color: #1E2952 !important;
+}
+
+#sparring th {
+    color: #1E2952 !important;
+}
+
+#allies .top {
+    color: #1E2952 !important;
+}
+
+#clans .top {
+    color: #1E2952 !important;
+}
+
+.left h3 {
+    color: #1E2952 !important;
+}
+
+form th {
+    color: #1E2952 !important;
+}
+
+#editdetailspanel .b {
+    color: #111111 !important;
+}
+
+.item-header {
+    color: #414A4C !important;
+}
+
+#changepasswordpanel .b {
+    color: #111111 !important;
+}

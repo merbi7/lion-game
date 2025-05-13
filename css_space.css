@@ -1,0 +1,1087 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+
+
+body {
+background: url(https://upload.wikimedia.org/wikipedia/commons/b/b3/Leo_2019-12-31.jpg) top center fixed;
+background-size: 100%;
+color: #111111;
+font-family: "Schoolbell", cursive !important;
+}
+
+
+
+
+.container.main {
+    background-color: rgba(65,74,76,0.77) !important;
+    box-shadow: none !important;
+    box-shadow: rgba(17,17,17,0.77) 0px 30px 90px 30px inset !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+.col-md-9 {
+    background-color: rgba(1,0,255,0);
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: #8E9F9C;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+.navbar {
+    background-color: #111111;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+
+
+
+.navbar li a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+
+
+
+.breadcrumb {
+    background-color: #111111;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+.breadcrumb > li {
+    color: #86836D !important;
+}
+
+
+.panel {
+    background-color: #111111 !important;
+    
+    color: #111111 !important;
+    box-shadow: none !important;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+
+
+
+.progress div {
+    color: #86836D !important;
+}
+
+
+.progress-bar {
+    background: #1E2952;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.progress {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+.topbar {
+    background: #111111;
+    color: #86836D !important;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+
+
+h2 {
+    color: #8E9F9C !important;
+}
+
+
+
+
+a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+
+
+
+.breadcrumb a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+
+
+
+
+
+.breadcrumb>li+li:before {
+    color: #86836D !important;
+}
+
+
+
+
+h3 {
+    color: #8E9F9C !important;
+}
+
+
+
+
+#commentBox {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+#comment {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+select {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.top, th {
+    background: #111111 !important;
+    color: #111111;
+    border-radius: 7px 7px 0px 0px !important;
+}    
+
+
+.bottom, th {
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+#about .bottom {
+    background: #111111;
+}
+
+
+
+
+#about {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+#about .left {
+    background: #111111;
+    color: #111111;
+    border-radius: 7px 0px 0px 7px !important;
+}
+
+
+
+
+#about .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0px 7px 7px 0px !important;
+}
+
+
+
+
+#player {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+#player .top {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+#player .left {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+#player .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+hr {
+    display: none !important;
+}
+
+
+
+
+.cave-grid {
+    
+    color: #8E9F9C !important;
+    background: #111111;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+.mound-grid {
+    
+    color: #8E9F9C !important;
+    background: #111111;
+    
+}
+
+
+
+
+#sparring th {
+    background: #111111;
+    color: #1E2952 !important;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+
+
+
+#sparring {
+
+
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+.right_odd {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0px 0px 7px 0px !important;
+}
+
+
+
+
+a:hover {
+   -webkit-transition: color ease-in-out 777ms;
+    color: #fff0db !important;
+}
+
+
+
+
+#allies .top {
+    background: #111111 !important;
+    color: #1E2952 !important;
+}
+
+
+
+
+#allies {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+
+
+
+#allies .bottom {
+    background: #111111;
+}
+
+
+
+
+#clans .top {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+#clans {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+
+
+.dynastylist .left {
+    background: #111111;
+}
+
+
+
+
+.col .left {
+    background: #111111;
+	
+}
+
+
+
+
+#editdetailspanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+}
+
+
+
+
+#editdetailspanel .b {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.table > tbody > tr > th {
+    background: #111111;
+    color: #111111;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+
+#editdetailspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+#accountoptionspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+#accountoptionspanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+
+
+#accountoptionspanel .left {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.item-header {
+    background: #111111;
+    color: #111111;
+}
+
+
+
+
+.floatleft.small {
+   background: rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+
+#changepasswordpanel .bottom {
+    background: #111111;
+}
+
+
+
+
+#changepasswordpanel .b {
+    background: rgba(0, 0, 0, 0.1);
+	color: #111111 !important;
+	
+}
+
+
+
+
+#changepasswordpanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+
+
+small.text-muted {
+    color: #111111 !important;
+}
+
+
+div#chatMessageContainer {
+	color: #111111 !important;
+}
+
+
+
+
+table .bottom {
+    background: #111111 !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+
+
+#attack {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+
+
+
+#attack .bottom {
+    background: #111111 !important;
+}
+
+
+
+
+.white.visible-sm {
+    color: #111111 !important;
+    text-shadow: none !important;
+}
+
+
+
+
+.navbar li a:hover {
+    background: #111111 !important;
+    -webkit-transition: color ease-in-out 777ms;
+    color: #fff0db !important;;
+}
+
+
+
+
+.clear.visible-sm {
+    display: none !important;
+}
+
+
+.alert {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #111111 !important;
+    margin: 20px;
+}
+
+
+#clans .left {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+
+.panel-default .small {
+    color: #86836D !important;
+}
+
+
+.col-xs-12 .visible-lg .small {
+    color: #86836D !important;
+}
+
+
+#about .left b {
+    color: #86836D !important;
+}
+
+
+.top > small {
+    color: #1E2952 !important;
+}
+
+
+#player b {
+    color: #86836D !important;
+}
+
+
+#clans .top {
+    color: #1E2952 !important;
+}
+
+
+form th {
+    color: #1E2952 !important;
+}
+
+
+#editdetailspanel .b {
+    color: #111111 !important;
+}
+
+
+.item-header {
+    color: #86836D !important;
+}
+
+
+.xlarge.b {
+    color: #1E2952 !important;
+}
+
+
+.b.floatleft {
+    color: #86836D !important;
+}
+
+
+.b.floatright {
+    color: #86836D !important;
+}
+    
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
+    font-size: 0px;
+}
+
+
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
+    content: 'too recently';
+    font-size: 14px;
+}
+
+
+* {
+    text-transform: lowercase;
+	border: none !important;
+}
+
+
+.cave-grid img {
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+
+.mound-grid img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.bigger img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+button.button {
+     border-radius: 7px 7px 7px 7px !important;
+}
+
+
+input {
+     border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.BOX {
+display: block;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: auto;
+background-color: #111111;
+overflow: hidden;
+border-radius: 7px 7px 7px 7px !important;
+}
+.coolbox:hover {
+background: rgb(0,0,0,1) !important;
+   -webkit-transition: background-color ease-in-out 777ms !important;
+    overflow: auto;
+}
+.coolbox {
+width: 350px;
+height: 170px;
+overflow: hidden;
+background-color: #111111 !important;
+transition: width 1s, height 2s;
+border-radius: 7px 7px 7px 7px !important;
+color: #86836D !important;
+margin: 20px;
+margin-bottom: auto;
+    -webkit-transition: background-color ease-in-out 777ms !important;
+}
+
+
+.xlarge.b > :nth-child(1) {
+    font-size: 0px;
+}
+
+
+.xlarge.b > :nth-child(1)::after {
+    content: 'little lion man' !important;
+    font-size: 18px;
+}
+
+
+.xlarge.b {
+    font-size: 0px;
+}
+
+
+.xlarge.b::after {
+    content: ', the silly' !important;
+    font-size: 18px;
+}
+
+
+.lion-image-block img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.right .right img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  border: none !important;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #111111;
+    border-radius: 7px !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #1E2952;
+     border-radius: 7px !important;
+}
+
+
+::-webkit-scrollbar-corner {
+    background: #111111;
+}
+
+
+
+
+.night {
+    position: absolute;
+    left: -7%;
+    top: -7%;
+    width: 10%;
+    height: 10%;
+    transform: rotateZ(50deg);
+}
+
+
+.shooting_star {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 2px;
+  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+  border-radius: 999px;
+  filter: drop-shadow(0 0 6px #699bff);
+  -webkit-animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
+          animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
+}
+.shooting_star::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  height: 2px;
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+  transform: translateX(50%) rotateZ(45deg);
+  border-radius: 100%;
+  -webkit-animation: shining 3000ms ease-in-out infinite;
+          animation: shining 3000ms ease-in-out infinite;
+}
+.shooting_star::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  height: 2px;
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+  transform: translateX(50%) rotateZ(45deg);
+  border-radius: 100%;
+  -webkit-animation: shining 3000ms ease-in-out infinite;
+          animation: shining 3000ms ease-in-out infinite;
+  transform: translateX(50%) rotateZ(-45deg);
+}
+.shooting_star:nth-child(1) {
+  top: calc(50% - -124px);
+  left: calc(50% - 250px);
+  -webkit-animation-delay: 5520ms;
+          animation-delay: 5520ms;
+}
+.shooting_star:nth-child(1)::before, .shooting_star:nth-child(1)::after {
+  -webkit-animation-delay: 5520ms;
+          animation-delay: 5520ms;
+}
+.shooting_star:nth-child(2) {
+  top: calc(50% - -122px);
+  left: calc(50% - 23px);
+  -webkit-animation-delay: 4971ms;
+          animation-delay: 4971ms;
+}
+.shooting_star:nth-child(2)::before, .shooting_star:nth-child(2)::after {
+  -webkit-animation-delay: 4971ms;
+          animation-delay: 4971ms;
+}
+.shooting_star:nth-child(3) {
+  top: calc(50% - -124px);
+  left: calc(50% - 34px);
+  -webkit-animation-delay: 513ms;
+          animation-delay: 513ms;
+}
+.shooting_star:nth-child(3)::before, .shooting_star:nth-child(3)::after {
+  -webkit-animation-delay: 513ms;
+          animation-delay: 513ms;
+}
+.shooting_star:nth-child(4) {
+  top: calc(50% - -55px);
+  left: calc(50% - 46px);
+  -webkit-animation-delay: 6139ms;
+          animation-delay: 6139ms;
+}
+.shooting_star:nth-child(4)::before, .shooting_star:nth-child(4)::after {
+  -webkit-animation-delay: 6139ms;
+          animation-delay: 6139ms;
+}
+.shooting_star:nth-child(5) {
+  top: calc(50% - 33px);
+  left: calc(50% - 27px);
+  -webkit-animation-delay: 592ms;
+          animation-delay: 592ms;
+}
+.shooting_star:nth-child(5)::before, .shooting_star:nth-child(5)::after {
+  -webkit-animation-delay: 592ms;
+          animation-delay: 592ms;
+}
+.shooting_star:nth-child(6) {
+  top: calc(50% - -129px);
+  left: calc(50% - 172px);
+  -webkit-animation-delay: 7203ms;
+          animation-delay: 7203ms;
+}
+.shooting_star:nth-child(6)::before, .shooting_star:nth-child(6)::after {
+  -webkit-animation-delay: 7203ms;
+          animation-delay: 7203ms;
+}
+.shooting_star:nth-child(7) {
+  top: calc(50% - -78px);
+  left: calc(50% - 9px);
+  -webkit-animation-delay: 2434ms;
+          animation-delay: 2434ms;
+}
+.shooting_star:nth-child(7)::before, .shooting_star:nth-child(7)::after {
+  -webkit-animation-delay: 2434ms;
+          animation-delay: 2434ms;
+}
+.shooting_star:nth-child(8) {
+  top: calc(50% - -184px);
+  left: calc(50% - 234px);
+  -webkit-animation-delay: 4642ms;
+          animation-delay: 4642ms;
+}
+.shooting_star:nth-child(8)::before, .shooting_star:nth-child(8)::after {
+  -webkit-animation-delay: 4642ms;
+          animation-delay: 4642ms;
+}
+.shooting_star:nth-child(9) {
+  top: calc(50% - -64px);
+  left: calc(50% - 14px);
+  -webkit-animation-delay: 382ms;
+          animation-delay: 382ms;
+}
+.shooting_star:nth-child(9)::before, .shooting_star:nth-child(9)::after {
+  -webkit-animation-delay: 382ms;
+          animation-delay: 382ms;
+}
+.shooting_star:nth-child(10) {
+  top: calc(50% - 47px);
+  left: calc(50% - 27px);
+  -webkit-animation-delay: 505ms;
+          animation-delay: 505ms;
+}
+.shooting_star:nth-child(10)::before, .shooting_star:nth-child(10)::after {
+  -webkit-animation-delay: 505ms;
+          animation-delay: 505ms;
+}
+.shooting_star:nth-child(11) {
+  top: calc(50% - -106px);
+  left: calc(50% - 104px);
+  -webkit-animation-delay: 410ms;
+          animation-delay: 410ms;
+}
+.shooting_star:nth-child(11)::before, .shooting_star:nth-child(11)::after {
+  -webkit-animation-delay: 410ms;
+          animation-delay: 410ms;
+}
+.shooting_star:nth-child(12) {
+  top: calc(50% - 190px);
+  left: calc(50% - 186px);
+  -webkit-animation-delay: 5208ms;
+          animation-delay: 5208ms;
+}
+.shooting_star:nth-child(12)::before, .shooting_star:nth-child(12)::after {
+  -webkit-animation-delay: 5208ms;
+          animation-delay: 5208ms;
+}
+.shooting_star:nth-child(13) {
+  top: calc(50% - 178px);
+  left: calc(50% - 94px);
+  -webkit-animation-delay: 824ms;
+          animation-delay: 824ms;
+}
+.shooting_star:nth-child(13)::before, .shooting_star:nth-child(13)::after {
+  -webkit-animation-delay: 824ms;
+          animation-delay: 824ms;
+}
+.shooting_star:nth-child(14) {
+  top: calc(50% - -92px);
+  left: calc(50% - 159px);
+  -webkit-animation-delay: 5025ms;
+          animation-delay: 5025ms;
+}
+.shooting_star:nth-child(14)::before, .shooting_star:nth-child(14)::after {
+  -webkit-animation-delay: 5025ms;
+          animation-delay: 5025ms;
+}
+.shooting_star:nth-child(15) {
+  top: calc(50% - 126px);
+  left: calc(50% - 92px);
+  -webkit-animation-delay: 4153ms;
+          animation-delay: 4153ms;
+}
+.shooting_star:nth-child(15)::before, .shooting_star:nth-child(15)::after {
+  -webkit-animation-delay: 4153ms;
+          animation-delay: 4153ms;
+}
+.shooting_star:nth-child(16) {
+  top: calc(50% - -111px);
+  left: calc(50% - 22px);
+  -webkit-animation-delay: 1237ms;
+          animation-delay: 1237ms;
+}
+.shooting_star:nth-child(16)::before, .shooting_star:nth-child(16)::after {
+  -webkit-animation-delay: 1237ms;
+          animation-delay: 1237ms;
+}
+.shooting_star:nth-child(17) {
+  top: calc(50% - -11px);
+  left: calc(50% - 37px);
+  -webkit-animation-delay: 2346ms;
+          animation-delay: 2346ms;
+}
+.shooting_star:nth-child(17)::before, .shooting_star:nth-child(17)::after {
+  -webkit-animation-delay: 2346ms;
+          animation-delay: 2346ms;
+}
+.shooting_star:nth-child(18) {
+  top: calc(50% - -1px);
+  left: calc(50% - 169px);
+  -webkit-animation-delay: 3104ms;
+          animation-delay: 3104ms;
+}
+.shooting_star:nth-child(18)::before, .shooting_star:nth-child(18)::after {
+  -webkit-animation-delay: 3104ms;
+          animation-delay: 3104ms;
+}
+.shooting_star:nth-child(19) {
+  top: calc(50% - 130px);
+  left: calc(50% - 133px);
+  -webkit-animation-delay: 8135ms;
+          animation-delay: 8135ms;
+}
+.shooting_star:nth-child(19)::before, .shooting_star:nth-child(19)::after {
+  -webkit-animation-delay: 8135ms;
+          animation-delay: 8135ms;
+}
+.shooting_star:nth-child(20) {
+  top: calc(50% - 88px);
+  left: calc(50% - 245px);
+  -webkit-animation-delay: 4249ms;
+          animation-delay: 4249ms;
+}
+.shooting_star:nth-child(20)::before, .shooting_star:nth-child(20)::after {
+  -webkit-animation-delay: 4249ms;
+          animation-delay: 4249ms;
+}
+
+
+@-webkit-keyframes tail {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 100px;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+
+@keyframes tail {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 100px;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes shining {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes shining {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+@-webkit-keyframes sky {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+  
+}
+@keyframes sky {
+  0% {
+    transform: rotate(45deg);
+  }
+  
+  100% {
+    transform: rotate(405deg);
+  }
+}
+
+
+.left img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+div.panel-body.small {
+    color: #86836D !important;
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+#commentBox::before {
+content: "comment box";
+background: #111111;
+color: #8E9F9C;
+height: 50px;
+display: block;
+padding: 7px !important;
+font-size: 24px;
+}
+div#commentBox {
+height: 50px;
+overflow-y: hidden !important;
+transition: 1s;
+}
+#commentBox:hover {
+height: 300px !important;
+transition: 1s;
+}
+textarea {
+   background: #fff0db !important; 
+}
+
+#comment {
+      background: #fff0db !important;
+}
+
+#editdetailspanel .right input {
+      background: #fff0db !important;
+}
+
+select {
+      background: #fff0db !important;
+}
+
+#changepasswordpanel .right input {
+      background: #fff0db !important;
+}

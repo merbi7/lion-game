@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+body {
+background: url(https://live.staticflickr.com/65535/51662514783_054981bd74_k.jpg) top center fixed;
+background-size: 100%;
+color: #26251F;
+font-family: "Schoolbell", cursive !important;
+}
+
+.container.main {
+    background-color: rgba(135,120,83,0.8) !important;
+    box-shadow: rgba(82,59,30,0.8) 0px 30px 90px 30px inset, 0px 0px 5px rgba(82,59,30,0.8) !important;
+}
+
+.col-md-9 {
+    background-color: rgba(1,0,255,0);
+}
+
+
+h1 {
+    color: #3C3322;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar {
+    background-color: #3C3322;
+}
+
+.navbar li a {
+    color: #26251F !important;
+}
+
+.breadcrumb {
+    background-color: #3C3322;
+}
+
+.breadcrumb a {
+    color: #AF935C !important;
+}
+.breadcrumb > li {
+    color: #26251F !important;
+}
+.panel {
+    background-color: #3C3322 !important;
+    border: none !important;
+    color: #26251F !important;
+    box-shadow: none !important;
+}
+
+.progress div {
+    color: #26251F !important;
+}
+
+.progress-bar {
+    background: #565c8b;
+}
+
+.progress {
+    background: #515574;
+}
+
+.topbar {
+    background: #3C3322;
+    color: #26251F !important;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 4px
+}
+
+a {
+    color: #AF935C !important;
+}
+
+.breadcrumb a {
+    color: #AF935C !important;
+}
+
+.breadcrumb>li+li:before {
+    color: #26251F !important;
+}
+
+h3 {
+    color: #26251F !important;
+}
+
+a:hover {
+    color: #CDB08D !important;
+}
+
+.table > tbody > tr > th {
+    background: #3C3322;
+    color: #26251F;
+}
+
+form > .table {
+    border: none;
+}
+
+.item-header {
+    background: #3C3322;
+    color: #26251F;
+}
+
+.white.visible-sm {
+    color: #26251F !important;
+    text-shadow: none !important;
+}
+
+div.left {
+    background: #3C3322;
+}
+
+.item-footer {
+    background: #3C3322;
+    color: #26251F !important;
+}
+
+.center.floatleft {
+    border: none !important;
+}
+
+form .bottom {
+    background: #3C3322 !important;
+}
+
+form .table {
+    background-color: rgba(135,120,83,0.8) !important;
+}
+
+.left.b {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.center.floatleft {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.col-xs-12 > .auto {
+    border: none !important;
+    background-color: rgba(135,120,83,0.8) !important;
+}
+
+.col-xs-12 > .auto .bottom {
+    background: #3C3322 !important;
+}
+
+.navbar li a:hover {
+    background: #565c8b !important;
+}
+
+.clear.visible-sm {
+    display: none !important;
+}
