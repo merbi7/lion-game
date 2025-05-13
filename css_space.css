@@ -289,6 +289,10 @@ hr {
     display: none !important;
 }
 
+.table .right_odd {
+    display: none !important;
+}
+
 a:hover {
    -webkit-transition: color ease-in-out 777ms;
     color: #fff0db !important;
