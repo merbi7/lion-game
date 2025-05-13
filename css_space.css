@@ -286,16 +286,8 @@ hr {
 
 
 .right_odd {
-    background: #111111 !important;
-    border-radius: 0px 0px 0px 7px !important;
+    display: none !important;
 }
-
-.text-right {
-    border-radius: 0px 0px 7px 0px !important;
-}
-
-
-
 
 a:hover {
    -webkit-transition: color ease-in-out 777ms;
