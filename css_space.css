@@ -1084,3 +1084,8 @@ select {
 #changepasswordpanel .right input {
       background: #fff0db !important;
 }
+
+.table .right_odd {
+    background: #111111 !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
