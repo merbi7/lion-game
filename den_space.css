@@ -14,6 +14,7 @@ font-family: "Schoolbell", cursive !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
+
 .col-md-9 {
    background-color: rgba(1,0,255,0);
 }
@@ -195,8 +196,8 @@ p {
      border-radius: 7px 7px 0px 0px !important;
 }
 
-div.lionImage.featured-lion {
-    border-radius: 7px 7px 0px 0px !important;
+.featured-lion {
+    background: none !important;
 }
 
 ::-webkit-scrollbar {
