@@ -286,7 +286,11 @@ hr {
 
 
 .right_odd {
-    background: rgba(0, 0, 0, 0.1) !important;
+    background: #111111 !important;
+    border-radius: 0px 0px 0px 7px !important;
+}
+
+.text-right {
     border-radius: 0px 0px 7px 0px !important;
 }
 
@@ -1083,9 +1087,4 @@ select {
 
 #changepasswordpanel .right input {
       background: #fff0db !important;
-}
-
-.table .right_odd {
-    background: #111111 !important;
-    border-radius: 0px 0px 7px 7px !important;
 }
