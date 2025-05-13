@@ -508,6 +508,7 @@ table .bottom {
     background: rgba(0, 0, 0, 0.1) !important;
     border-radius: 7px 7px 7px 7px !important;
     color: #111111 !important;
+    margin: 20px;
 }
 
 
