@@ -646,7 +646,7 @@ margin-bottom: auto;
 }
 
 
-.xlarge.b > :nth-child(1) {
+.xlarge.b > :nth-child(2) {
     font-size: 0px;
 }
 
