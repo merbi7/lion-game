@@ -645,12 +645,27 @@ margin-bottom: auto;
     -webkit-transition: background-color ease-in-out 777ms !important;
 }
 
-.xlarge.b > :nth-child(1) {
+.xlarge.b > :nth-child(1)::after {
+    content: 'little lion man' !important;
     font-size: 18px;
+}
+
+
+.xlarge.b > :nth-child(1) {
+    font-size: 0px;
+}
+
+
+.xlarge.b > :nth-child(1)::after {
+    content: 'little lion man' !important;
+    font-size: 18px;
+}
+
 
 .xlarge.b {
     font-size: 0px;
 }
+
 
 .xlarge.b::after {
     content: ', the silly' !important;
