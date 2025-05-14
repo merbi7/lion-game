@@ -1084,3 +1084,7 @@ select {
 #changepasswordpanel .right input {
       background: #fff0db !important;
 }
+
+.lion-image-block[data-image-type="headshot"] {
+	border-radius: 7px 7px 7px 7px !important;
+}
