@@ -646,10 +646,9 @@ margin-bottom: auto;
 }
 
 
-.xlarge.b > :nth-child(2) {
+.xlarge.b {
     font-size: 0px;
 }
-
 
 .xlarge.b::after {
     content: ', the silly' !important;
