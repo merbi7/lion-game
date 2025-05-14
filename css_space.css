@@ -628,7 +628,7 @@ overflow: hidden;
 border-radius: 7px 7px 7px 7px !important;
 }
 .coolbox:hover {
-background: rgb(0,0,0,1) !important;
+background: rgb(0,0,0,0.1) !important;
    -webkit-transition: background-color ease-in-out 777ms !important;
     overflow: auto;
 }
