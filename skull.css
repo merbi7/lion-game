@@ -583,10 +583,6 @@ input#btnChatSend {
     color: #3D3B2B !important;
 }
 
-#btnLoadNewMessages {
-    background: rgba(0, 0, 0, 0.1)
-}
-
 div#chatMessageContainer {
 	border-radius: 7px 7px 7px 7px !important;
     background: #534F2F !important;
@@ -595,18 +591,18 @@ div#chatMessageContainer {
 
 .s-chat-message:nth-child(even) {
 	background: #534F2F !important;
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 .s-chat-message:nth-child(odd) {
 	background: rgba(0, 0, 0, 0.1) !important;
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 .s-chat-message__pinned {
 	background: rgba(0,0,0,0.1) !important;
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 .s-chat-message_timestamp {
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 
 div.channelMenu {
