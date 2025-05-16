@@ -563,26 +563,6 @@ form th {
 
 /* chat box */
 
-div#chatMessageContainer {
-    background: #1B1E11 !important;
-    color: #161409 !important;
-}
-
-div.channelMenu {
-    background: #C9CBA3 !important;
-    color: #3D3B2B !important;
-}
-
-button.channelSwitcher {
-    background: #C9CBA3 !important;
-    color: #3D3B2B !important;
-}
-
-button.channelSwitcher.active {
-    background: #C9CBA3 !important;
-    color: #3D3B2B !important;
-}
-
 div#txtChatContainer > div > span > a {
     background: #939C7A !important;
     -webkit-transition: color ease-in-out 777ms;
@@ -593,11 +573,6 @@ div#txtChatContainer > div > span > a::hover {
     -webkit-transition: color ease-in-out 777ms;
 }
 
-div#chatMessagePinned {
-    background: rgba(0,0,0,0.1) !important;
-    color: #3D3B2B !important;
-}
-
 input#txtChatInput {
     background: #C9CBA3 !important;
     color: #3D3B2B !important;
@@ -605,5 +580,45 @@ input#txtChatInput {
 
 input#btnChatSend {
     background: #5C6D50 !important;
+    color: #3D3B2B !important;
+}
+
+.s-chat-message_menu {
+	background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+#btnChatSettings {
+    color: rgba(0, 0, 0, 0.1)
+}
+
+#btnLoadNewMessages {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+div#chatMessageContainer {
+	border-radius: 7px 7px 7px 7px !important;
+    background: #1B1E11 !important;
+    color: #161409 !important;
+}
+
+.s-chat-message:nth-child(even) {
+	background: #1B1E11 !important;
+    color: #161409 !important;
+}
+.s-chat-message:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.1) !important;
+    color: #161409 !important;
+}
+.s-chat-message__pinned {
+	background: rgba(0,0,0,0.1) !important;
+    color: #3D3B2B !important;
+}
+.s-chat-message_timestamp {
+    color: #3D3B2B !important;
+}
+
+button#label_currentChannel {	
+	background: #C9CBA3 !important;
     color: #3D3B2B !important;
 }
