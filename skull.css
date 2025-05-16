@@ -87,16 +87,16 @@ h3 {
 }
 
 .progress div {
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 
 .progress-bar {
-    background: #534F2F;
+    background: #5C6D50;
     border-radius: 7px 7px 7px 7px !important;
 }
 
 .progress {
-    background: rgba(0,0,0,0.1);
+    background: #534F2F;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -190,10 +190,6 @@ height: 300px !important;
 transition: 1s;
 }
 
-textarea {
-   background: #C9CBA3 !important; 
-}
-
 #comment {
       background: #C9CBA3 !important;
 }
@@ -230,6 +226,11 @@ input {
 .button {
     background: #5C6D50 !important;
     color: #3D3B2B !important;
+}
+
+textarea {
+   background: #C9CBA3 !important; 
+    border-radius: 7px 7px 7px 7px !important;
 }
 
 /* panel bars */
@@ -349,13 +350,8 @@ hr {
     color: #3D3B2B !important;
 }
 
-#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
-    font-size: 0px;
-}
-
-#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
-    content: 'too recently';
-    font-size: 14px;
+.text-muted {
+    color: #534F2F !important;
 }
 
 /* caves and mounds */
@@ -364,6 +360,10 @@ hr {
     color: #5C6D50 !important;
     background: #101308;
     border-radius: 7px 7px 7px 7px !important;
+}
+
+.cave-grid img {
+    content: url("");
 }
 
 .mound-grid {
@@ -425,11 +425,12 @@ hr {
 
 #editdetailspanel .table {
     background-color: #534F2F !important;
+    border-radius: 0px 0px 7px 7px !important;
 }
 
 #editdetailspanel .b {
     background: rgba(0, 0, 0, 0.1);
-    color: #3D3B2B !important;
+    color: #161409 !important;
 }
 
 #accountoptionspanel .table {
@@ -452,7 +453,7 @@ hr {
 
 #changepasswordpanel .b {
     background: rgba(0, 0, 0, 0.1);
-	color: #3D3B2B !important;
+	color: #161409 !important;
 	
 }
 
@@ -464,7 +465,7 @@ hr {
 /* don't remember genuinely */
 
 small.text-muted {
-    color: #3D3B2B !important;
+    color: #534F2F !important;
 }
 
 /* chat */
@@ -561,6 +562,12 @@ form th {
     border-radius: 7px 7px 7px 7px !important;
 }
 
+.navbar-brand img {
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/wolf.png");
+    max-width: 200px;
+    max-height: 120px;
+}
+        
 /* chat box */
 
 div#txtChatContainer > div > span > a {
@@ -583,6 +590,10 @@ input#btnChatSend {
     color: #3D3B2B !important;
 }
 
+#btnLoadNewMessages {
+    background: rgba(0, 0, 0, 0.1)
+}
+
 div#chatMessageContainer {
 	border-radius: 7px 7px 7px 7px !important;
     background: #534F2F !important;
@@ -591,18 +602,18 @@ div#chatMessageContainer {
 
 .s-chat-message:nth-child(even) {
 	background: #534F2F !important;
-    color: #161409 !important;
+    color: #3D3B2B !important;
 }
 .s-chat-message:nth-child(odd) {
 	background: rgba(0, 0, 0, 0.1) !important;
-    color: #161409 !important;
+    color: #3D3B2B !important;
 }
 .s-chat-message__pinned {
 	background: rgba(0,0,0,0.1) !important;
-    color: #161409 !important;
+    color: #3D3B2B !important;
 }
 .s-chat-message_timestamp {
-    color: #161409 !important;
+    color: #3D3B2B !important;
 }
 
 div.channelMenu {
