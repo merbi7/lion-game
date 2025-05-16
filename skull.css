@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
+
+/* big stuff */
+
+* {
+    text-transform: lowercase;
+	border: none !important;
+    text-shadow: none !important;
+}
+
+body {
+background: url(https://live.staticflickr.com/7386/10280538973_37650821b4_6k.jpg) top center fixed;
+background-size: 100%;
+color: #161409;
+font-family: "National Park" !important;
+}
+
+.container.main {
+    background-color: #292B19 !important;
+    box-shadow: none !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.col-md-9 {
+    background-color: rgba(1,0,255,0);
+}
+
+/* headings */
+
+h1 {
+    color: #5C6D50;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #5C6D50 !important;
+}
+
+h3 {
+    color: #5C6D50 !important;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #1B1E11;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+.navbar li a {
+    color: #939C7A !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+.navbar li a:hover {
+    background: #1B1E11 !important;
+    -webkit-transition: color ease-in-out 777ms;
+    color: #C9CBA3 !important;;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* breadcrumb */
+
+
+.breadcrumb {
+    background-color: #1B1E11;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+.breadcrumb > li {
+    color: #3D3B2B !important;
+}
+
+/* side panels */
+
+.panel {
+    background-color: #1B1E11 !important;
+    color: #3D3B2B !important;
+    box-shadow: none !important;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+.progress div {
+    color: #3D3B2B !important;
+}
+
+.progress-bar {
+    background: #534F2F;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.progress {
+    background: rgba(0,0,0,0.1);
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.panel-default .small {
+    color: #3D3B2B !important;
+}
+
+
+.col-xs-12 .visible-lg .small {
+    color: #3D3B2B !important;
+}
+
+div.panel-body.small {
+    color: #3D3B2B !important;
+}
+
+.b.floatleft {
+    color: #3D3B2B !important;
+}
+
+
+.b.floatright {
+    color: #3D3B2B !important;
+}
+
+/* topbar */
+
+.topbar {
+    background: #1B1E11;
+    color: #3D3B2B !important;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+/* links */
+
+a {
+    color: #939C7A !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+.breadcrumb a {
+    color: #939C7A !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+.breadcrumb>li+li:before {
+    color: #3D3B2B !important;
+}
+
+a:hover {
+   -webkit-transition: color ease-in-out 777ms;
+    color: #C9CBA3 !important;
+}
+
+/* comment box */
+
+#commentBox {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#comment {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.xlarge.b {
+    color: #5C6D50 !important;
+}
+
+#commentBox::before {
+content: "comment box";
+background: #1B1E11;
+color: #5C6D50;
+height: 50px;
+display: block;
+padding: 7px !important;
+font-size: 24px;
+}
+
+div#commentBox {
+height: 50px;
+overflow-y: hidden !important;
+transition: 1s;
+}
+
+#commentBox:hover {
+height: 300px !important;
+transition: 1s;
+}
+
+textarea {
+   background: #C9CBA3 !important; 
+}
+
+#comment {
+      background: #C9CBA3 !important;
+}
+
+/* buttons and text boxes */
+
+select {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#editdetailspanel .right input {
+      background: #C9CBA3 !important;
+}
+
+select {
+    background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+button.button {
+     border-radius: 7px 7px 7px 7px !important;
+}
+
+input {
+    border-radius: 7px 7px 7px 7px !important;
+    background: #5C6D50 !important;
+    color: #3D3B2B !important;
+}
+
+#changepasswordpanel .right input {
+      background: #C9CBA3 !important;
+}
+
+.button {
+    background: #5C6D50 !important;
+    color: #3D3B2B !important;
+}
+
+/* panel bars */
+
+.top, th {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+    border-radius: 7px 7px 0px 0px !important;
+}    
+
+.bottom, th {
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+#about .bottom {
+    background: #1B1E11 !important;
+}
+
+#player .top {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+}
+
+#sparring th {
+    background: #1B1E11 !important;
+    color: #5C6D50 !important;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+#allies .top {
+    background: #1B1E11 !important;
+    color: #5C6D50 !important;
+}
+
+#allies .bottom {
+    background: #1B1E11 !important;
+}
+
+#clans .top {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+}
+
+.table > tbody > tr > th {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+#editdetailspanel .bottom {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+}
+
+#accountoptionspanel .bottom {
+    background: #1B1E11 !important;
+    color: #3D3B2B;
+}
+
+#changepasswordpanel .bottom {
+    background: #1B1E11 !important;
+}
+
+table .bottom {
+    background: #1B1E11 !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+/* main lion panel */
+
+#about {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#about .left {
+    background: #1B1E11;
+    color: #3D3B2B;
+    border-radius: 7px 0px 0px 7px !important;
+}
+
+#about .auto .right {
+    background: rgba(0,0,0,0.1);
+    border-radius: 0px 7px 7px 0px !important;
+}
+
+#about .left b {
+    color: #3D3B2B !important;
+}
+
+/* player panel */
+
+#player {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#player .left {
+    background: #1B1E11;
+    color: #3D3B2B;
+}
+
+#player .auto .right {
+    background: rgba(0,0,0,0.1);
+}
+
+hr {
+    display: none !important;
+}
+
+.top > small {
+    color: #5C6D50 !important;
+}
+
+
+#player b {
+    color: #3D3B2B !important;
+}
+
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
+    font-size: 0px;
+}
+
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
+    content: 'too recently';
+    font-size: 14px;
+}
+
+/* caves and mounds */
+
+.cave-grid {
+    color: #5C6D50 !important;
+    background: #101308;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.mound-grid {
+    color: #5C6D50 !important;
+    background: #101308;
+
+}
+
+/* bottom panels */
+
+#sparring > tbody > tr > td.right_odd {
+    display: block !important;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#sparring {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.right_odd {
+    display: none !important;
+}
+
+.table .right_odd {
+    display: none !important;
+}
+
+#allies {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#clans {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#clans .left {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/* dynasty and stuff */
+
+.dynastylist .left {
+    background: #101308;
+}
+
+.col .left {
+    background: #101308;
+	
+}
+
+.left img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+/* settings */
+
+#editdetailspanel .table {
+    background-color: #534F2F !important;
+}
+
+#editdetailspanel .b {
+    background: rgba(0, 0, 0, 0.1);
+    color: #3D3B2B !important;
+}
+
+#accountoptionspanel .table {
+    background-color: #534F2F !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+#accountoptionspanel .left {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.item-header {
+    background: #101308;
+    color: #3D3B2B !important;
+}
+
+.floatleft.small {
+   background: rgba(0, 0, 0, 0.1);
+}
+
+#changepasswordpanel .b {
+    background: rgba(0, 0, 0, 0.1);
+	color: #3D3B2B !important;
+	
+}
+
+#changepasswordpanel .table {
+    background-color: #534F2F !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+/* don't remember genuinely */
+
+small.text-muted {
+    color: #3D3B2B !important;
+}
+
+/* chat */
+
+div#chatMessageContainer {
+	color: #3D3B2B !important;
+}
+
+/* attack */
+
+#attack {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#attack .bottom {
+    background: #101308 !important;
+}
+
+/* bottom text  */
+
+.white.visible-sm {
+    color: #3D3B2B !important;
+    text-shadow: none !important;
+}
+
+.clear.visible-sm {
+    display: none !important;
+}
+
+/* alerts */
+
+.alert {
+    background: #161409 !important;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #3D3B2B !important;
+}
+
+
+#clans .top {
+    color: #5C6D50 !important;
+}
+
+
+form th {
+    color: #5C6D50 !important;
+}
+
+/* scrollbars */
+
+::-webkit-scrollbar {
+    background: #292B19;
+  width: 10px !important;
+  border: none !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #292B19;
+    border-radius: 7px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5C6D50;
+     border-radius: 7px !important;
+}
+
+::-webkit-scrollbar-corner {
+    background: #292B19;
+}
+
+/* images */
+
+.lion-image-block img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.right .right img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.lion-image-block[data-image-type="headshot"] {
+	border-radius: 7px 7px 7px 7px !important;
+}
+
+.cave-grid img {
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+.mound-grid img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.bigger img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+/* chat box */
+
+div#chatMessageContainer {
+    background: #1B1E11 !important;
+    color: #161409 !important;
+}
+
+div.channelMenu {
+    background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+button.channelSwitcher {
+    background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+button.channelSwitcher.active {
+    background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+div#txtChatContainer > div > span > a {
+    background: #939C7A !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+div#txtChatContainer > div > span > a::hover {
+    background: #C9CBA3 !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+div#chatMessagePinned {
+    background: rgba(0,0,0,0.1) !important;
+    color: #3D3B2B !important;
+}
+
+input#txtChatInput {
+    background: #C9CBA3 !important;
+    color: #3D3B2B !important;
+}
+
+input#btnChatSend {
+    background: #5C6D50 !important;
+    color: #3D3B2B !important;
+}
