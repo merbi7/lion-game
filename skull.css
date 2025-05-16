@@ -583,11 +583,6 @@ input#btnChatSend {
     color: #3D3B2B !important;
 }
 
-.s-chat-message_menu {
-	background: #C9CBA3 !important;
-    color: #3D3B2B !important;
-}
-
 #btnLoadNewMessages {
     background: rgba(0, 0, 0, 0.1)
 }
@@ -611,5 +606,10 @@ div#chatMessageContainer {
     color: #3D3B2B !important;
 }
 .s-chat-message_timestamp {
+    color: #3D3B2B !important;
+}
+
+div.channelMenu {
+    background: #C9CBA3 !important;
     color: #3D3B2B !important;
 }
