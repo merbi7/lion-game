@@ -9,7 +9,7 @@
 }
 
 body {
-background: url(https://live.staticflickr.com/7386/10280538973_37650821b4_6k.jpg) top center fixed;
+background: url(https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/mossy.jpg) top center fixed;
 background-size: 100%;
 color: #161409;
 font-family: "National Park" !important;
@@ -17,7 +17,7 @@ font-family: "National Park" !important;
 
 .container.main {
     background-color: #292B19 !important;
-    box-shadow: rgba(28,30,17,0.77) 0px 30px 90px 30px inset !important;
+    box-shadow: rgba(0,0,0,0.0) 0px 0px 0px 0px inset !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -128,7 +128,7 @@ div.panel-body.small {
 .topbar {
     background: #1B1E11;
     color: #3D3B2B !important;
-    font-size: 20px;
+    font-size: 18px;
     height: 50px;
     border-radius: 0px 0px 7px 7px !important;
 }
@@ -553,7 +553,9 @@ form th {
 }
 
 .cave-grid img {
-    border-radius: 7px 7px 0px 0px !important;
+	content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/skull_green.png")!important;
+    max-width: 50px;
+    padding-top: 10px;
 }
 
 .mound-grid img {
