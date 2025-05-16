@@ -17,7 +17,7 @@ font-family: "National Park" !important;
 
 .container.main {
     background-color: #292B19 !important;
-    box-shadow: none !important;
+    box-shadow: rgba(28,30,17,0.77) 0px 30px 90px 30px inset !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -67,7 +67,7 @@ h3 {
 
 
 .breadcrumb {
-    background-color: #1B1E11;
+    background-color: #534F2F;
     border-radius: 7px 7px 7px 7px !important;
     
 }
@@ -96,7 +96,7 @@ h3 {
 }
 
 .progress {
-    background: #534F2F;
+    background: #C9CBA3;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -299,6 +299,10 @@ table .bottom {
     border-radius: 0px 0px 7px 7px !important;
 }
 
+#attack .bottom {
+    background: #1B1E11 !important;
+}
+
 /* main lion panel */
 
 #about {
@@ -406,6 +410,15 @@ hr {
     background: rgba(0, 0, 0, 0) !important;
 }
 
+#allies .left {
+    background: #534F2F !important;
+}
+
+#attack {
+    background-color: #534F2F !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
 /* dynasty and stuff */
 
 .dynastylist .left {
@@ -472,17 +485,6 @@ small.text-muted {
 
 div#chatMessageContainer {
 	color: #3D3B2B !important;
-}
-
-/* attack */
-
-#attack {
-    background-color: #534F2F !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-#attack .bottom {
-    background: #101308 !important;
 }
 
 /* bottom text  */
@@ -563,9 +565,19 @@ form th {
 }
 
 .navbar-brand img {
-    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/wolf.png");
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/canine_skull.png");
     max-width: 200px;
-    max-height: 120px;
+    max-height: 110px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+img[src$="gold.png"] {
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/bonegold.png");
+}
+
+img[src$="silver.png"] {
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/bone.png");
 }
         
 /* chat box */
