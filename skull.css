@@ -194,6 +194,10 @@ transition: 1s;
       background: #C9CBA3 !important;
 }
 
+.commentText .text-muted {
+    color: #1B1E11 !important;
+}
+
 /* buttons and text boxes */
 
 select {
