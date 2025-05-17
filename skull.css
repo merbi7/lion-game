@@ -362,7 +362,7 @@ hr {
 
 .cave-grid {
     color: #5C6D50 !important;
-    background: #101308;
+    background: #1B1E11;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -372,7 +372,7 @@ hr {
 
 .mound-grid {
     color: #5C6D50 !important;
-    background: #101308;
+    background: #1B1E11;
 
 }
 
@@ -422,11 +422,11 @@ hr {
 /* dynasty and stuff */
 
 .dynastylist .left {
-    background: #101308;
+    background: #1B1E11;
 }
 
 .col .left {
-    background: #101308;
+    background: #1B1E11;
 	
 }
 
@@ -456,7 +456,7 @@ hr {
 }
 
 .item-header {
-    background: #101308;
+    background: #1B1E11;
     color: #3D3B2B !important;
 }
 
