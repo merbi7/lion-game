@@ -203,6 +203,7 @@ p {
 ::-webkit-scrollbar {
   width: 10px !important;
   border: none !important;
+	background: #111111 !important;
 }
 
 
