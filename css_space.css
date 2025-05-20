@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
+/* big stuff */
 
-
+* {
+    text-transform: lowercase;
+	border: none !important;
+    text-shadow: none !important;
+}
 
 body {
 background: url(https://upload.wikimedia.org/wikipedia/commons/b/b3/Leo_2019-12-31.jpg) top center fixed;
@@ -10,18 +15,12 @@ color: #111111;
 font-family: "Schoolbell", cursive !important;
 }
 
-
-
-
 .container.main {
     background-color: rgba(65,74,76,0.77) !important;
     box-shadow: none !important;
     box-shadow: rgba(17,17,17,0.77) 0px 30px 90px 30px inset !important;
     border-radius: 7px 7px 7px 7px !important;
 }
-
-
-
 
 .col-md-9 {
     background-color: rgba(1,0,255,0);
@@ -30,9 +29,7 @@ font-family: "Schoolbell", cursive !important;
 
 
 
-
-
-
+/* headings */
 
 h1 {
     color: #8E9F9C;
@@ -40,455 +37,25 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    color: #8E9F9C !important;
+}
 
+h3 {
+    color: #8E9F9C !important;
+}
 
+/* navbar */
 
 .navbar {
     background-color: #111111;
     border-radius: 7px 7px 0px 0px !important;
 }
 
-
-
-
 .navbar li a {
     color: #A5A08F !important;
     -webkit-transition: color ease-in-out 777ms;
 }
-
-
-
-
-.breadcrumb {
-    background-color: #111111;
-    border-radius: 7px 7px 7px 7px !important;
-    
-}
-.breadcrumb > li {
-    color: #86836D !important;
-}
-
-
-.panel {
-    background-color: #111111 !important;
-    
-    color: #111111 !important;
-    box-shadow: none !important;
-    border-radius: 7px 7px 7px 7px !important;
-    
-}
-
-
-
-
-.progress div {
-    color: #86836D !important;
-}
-
-
-.progress-bar {
-    background: #1E2952;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-.progress {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-
-
-.topbar {
-    background: #111111;
-    color: #86836D !important;
-    font-size: 20px;
-    height: 50px;
-    border-radius: 0px 0px 7px 7px !important;
-}
-
-
-
-
-h2 {
-    color: #8E9F9C !important;
-}
-
-
-
-
-a {
-    color: #A5A08F !important;
-    -webkit-transition: color ease-in-out 777ms;
-}
-
-
-
-
-.breadcrumb a {
-    color: #A5A08F !important;
-    -webkit-transition: color ease-in-out 777ms;
-}
-
-
-
-
-
-
-.breadcrumb>li+li:before {
-    color: #86836D !important;
-}
-
-
-
-
-h3 {
-    color: #8E9F9C !important;
-}
-
-
-
-
-#commentBox {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-#comment {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-select {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-.top, th {
-    background: #111111 !important;
-    color: #111111;
-    border-radius: 7px 7px 0px 0px !important;
-}    
-
-
-.bottom, th {
-    border-radius: 0px 0px 7px 7px !important;
-}
-
-
-#about .bottom {
-    background: #111111;
-}
-
-
-
-
-#about {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-#about .left {
-    background: #111111;
-    color: #111111;
-    border-radius: 7px 0px 0px 7px !important;
-}
-
-
-
-
-#about .auto .right {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 0px 7px 7px 0px !important;
-}
-
-
-
-
-#player {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-
-
-#player .top {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-#player .left {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-#player .auto .right {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-hr {
-    display: none !important;
-}
-
-
-
-
-.cave-grid {
-    
-    color: #8E9F9C !important;
-    background: #111111;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-
-
-.mound-grid {
-    
-    color: #8E9F9C !important;
-    background: #111111;
-    
-}
-
-
-
-
-#sparring th {
-    background: #111111;
-    color: #1E2952 !important;
-    border-radius: 7px 7px 0px 0px !important;
-}
-
-
-
-
-#sparring {
-
-
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-
-
-.right_odd {
-    display: none !important;
-}
-
-.table .right_odd {
-    display: none !important;
-}
-
-a:hover {
-   -webkit-transition: color ease-in-out 777ms;
-    color: #fff0db !important;
-}
-
-
-
-
-#allies .top {
-    background: #111111 !important;
-    color: #1E2952 !important;
-}
-
-
-
-
-#allies {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-    
-}
-
-
-
-
-#allies .bottom {
-    background: #111111;
-}
-
-
-
-
-#clans .top {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-#clans {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-
-
-.dynastylist .left {
-    background: #111111;
-}
-
-
-
-
-.col .left {
-    background: #111111;
-	
-}
-
-
-
-
-#editdetailspanel .table {
-    background-color: rgba(65,74,76,0.77) !important;
-}
-
-
-
-
-#editdetailspanel .b {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-
-.table > tbody > tr > th {
-    background: #111111;
-    color: #111111;
-    border-radius: 7px 7px 0px 0px !important;
-}
-
-
-#editdetailspanel .bottom {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-#accountoptionspanel .bottom {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-#accountoptionspanel .table {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 0px 0px 7px 7px !important;
-}
-
-
-
-
-#accountoptionspanel .left {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-.item-header {
-    background: #111111;
-    color: #111111;
-}
-
-
-
-
-.floatleft.small {
-   background: rgba(0, 0, 0, 0.1);
-    
-}
-
-
-
-
-#changepasswordpanel .bottom {
-    background: #111111;
-}
-
-
-
-
-#changepasswordpanel .b {
-    background: rgba(0, 0, 0, 0.1);
-	color: #111111 !important;
-	
-}
-
-
-
-
-#changepasswordpanel .table {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 0px 0px 7px 7px !important;
-}
-
-
-
-
-small.text-muted {
-    color: #111111 !important;
-}
-
-
-div#chatMessageContainer {
-	color: #111111 !important;
-}
-
-
-
-
-table .bottom {
-    background: #111111 !important;
-    border-radius: 0px 0px 7px 7px !important;
-}
-
-
-
-
-#attack {
-    background-color: rgba(65,74,76,0.77) !important;
-    border-radius: 7px 7px 7px 7px !important;
-    
-}
-
-
-
-
-#attack .bottom {
-    background: #111111 !important;
-}
-
-
-
-
-.white.visible-sm {
-    color: #111111 !important;
-    text-shadow: none !important;
-}
-
-
-
 
 .navbar li a:hover {
     background: #111111 !important;
@@ -496,23 +63,45 @@ table .bottom {
     color: #fff0db !important;;
 }
 
-
-
-
-.clear.visible-sm {
-    display: none !important;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
+/* breadcrumb */
 
-.alert {
-    background: rgba(0, 0, 0, 0.1) !important;
+
+.breadcrumb {
+    background-color: #111111;
     border-radius: 7px 7px 7px 7px !important;
-    color: #111111 !important;
+    
 }
 
+.breadcrumb > li {
+    color: #86836D !important;
+}
 
-#clans .left {
-    background: rgba(0, 0, 0, 0) !important;
+/* side panels */
+
+.panel {
+    background-color: #111111 !important;
+    color: #111111 !important;
+    box-shadow: none !important;
+    border-radius: 7px 7px 7px 7px !important;
+    
+}
+
+.progress div {
+    color: #86836D !important;
+}
+
+.progress-bar {
+    background: #1E2952;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.progress {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 7px 7px 7px 7px !important;
 }
 
 
@@ -525,11 +114,257 @@ table .bottom {
     color: #86836D !important;
 }
 
+div.panel-body.small {
+    color: #86836D !important;
+}
+
+.b.floatleft {
+    color: #86836D !important;
+}
+
+
+.b.floatright {
+    color: #86836D !important;
+}
+
+/* topbar */
+
+.topbar {
+    background: #111111;
+    color: #86836D !important;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+/* links */
+
+a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+.breadcrumb a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+.breadcrumb>li+li:before {
+    color: #86836D !important;
+}
+
+a:hover {
+   -webkit-transition: color ease-in-out 777ms;
+    color: #fff0db !important;
+}
+
+/* comment box */
+
+#commentBox {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#comment {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.xlarge.b {
+    color: #1E2952 !important;
+}
+
+#commentBox::before {
+content: "comment box";
+background: #111111;
+color: #8E9F9C;
+height: 50px;
+display: block;
+padding: 7px !important;
+font-size: 24px;
+}
+
+div#commentBox {
+height: 50px;
+overflow-y: hidden !important;
+transition: 1s;
+}
+
+#commentBox:hover {
+height: 300px !important;
+transition: 1s;
+}
+
+#comment {
+      background: #fff0db !important;
+}
+
+/* buttons and text boxes */
+
+select {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#editdetailspanel .right input {
+      background: #fff0db !important;
+}
+
+select {
+      background: #fff0db !important;
+}
+
+button.button {
+     border-radius: 7px 7px 7px 7px !important;
+}
+
+input {
+     border-radius: 7px 7px 7px 7px !important;
+}
+
+#changepasswordpanel .right input {
+      background: #fff0db !important;
+}
+
+.button {
+    background: #111111 !important;
+    color: #86836D !important;
+}
+
+input {
+    border-radius: 7px 7px 7px 7px !important;
+    background: #111111 !important;
+    color: #86836D !important;
+}
+
+textarea {
+   background: #fff0db !important; 
+    border-radius: 7px !important;
+}
+
+/* panel bars */
+
+.top, th {
+    background: #111111 !important;
+    border-radius: 7px 7px 0px 0px !important;
+}    
+
+.bottom, th {
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+#about .bottom {
+    background: #111111;
+}
+
+#player .top {
+    background: #111111;
+    color: #111111;
+}
+
+#sparring th {
+    background: #111111;
+    color: #1E2952 !important;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+#allies .top {
+    background: #111111 !important;
+    color: #1E2952 !important;
+}
+
+#allies .bottom {
+    background: #111111;
+}
+
+#clans .top {
+    background: #111111;
+    color: #111111;
+}
+
+.table > tbody > tr > th {
+    background: #111111;
+    color: #111111;
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+#editdetailspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+#accountoptionspanel .bottom {
+    background: #111111;
+    color: #111111;
+}
+
+#changepasswordpanel .bottom {
+    background: #111111;
+}
+
+table .bottom {
+    background: #111111 !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+
+/* main lion panel */
+
+#about {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#about .left {
+    background: #111111;
+    color: #111111;
+    border-radius: 7px 0px 0px 7px !important;
+}
+
+#about .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0px 7px 7px 0px !important;
+}
 
 #about .left b {
     color: #86836D !important;
 }
 
+.xlarge.b > :nth-child(1) {
+    font-size: 0px;
+}
+
+.xlarge.b > :nth-child(1)::after {
+    content: 'little lion man' !important;
+    font-size: 18px;
+}
+
+.xlarge.b {
+    font-size: 0px;
+}
+
+.xlarge.b::after {
+    content: ', the silly' !important;
+    font-size: 18px;
+}
+
+/* player panel */
+
+#player {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#player .left {
+    background: #111111;
+    color: #111111;
+}
+
+#player .auto .right {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    display: none !important;
+}
 
 .top > small {
     color: #1E2952 !important;
@@ -538,6 +373,160 @@ table .bottom {
 
 #player b {
     color: #86836D !important;
+}
+
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
+    font-size: 0px;
+}
+
+#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
+    content: 'too recently';
+    font-size: 14px;
+}
+
+/* caves and mounds */
+
+.cave-grid {
+    color: #8E9F9C !important;
+    background: #111111;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.mound-grid {
+    color: #8E9F9C !important;
+    background: #111111;
+
+}
+
+/* bottom panels */
+
+#sparring > tbody > tr > td.right_odd {
+    display: block !important;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#sparring {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.right_odd {
+    display: none !important;
+}
+
+.table .right_odd {
+    display: none !important;
+}
+
+#allies {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#clans {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#clans .left {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/* dynasty and stuff */
+
+.dynastylist .left {
+    background: #111111;
+}
+
+.col .left {
+    background: #111111;
+	
+}
+
+.left img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+/* settings */
+
+#editdetailspanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+}
+
+#editdetailspanel .b {
+    background: rgba(0, 0, 0, 0.1);
+    color: #111111 !important;
+}
+
+#accountoptionspanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+#accountoptionspanel .left {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.item-header {
+    background: #111111;
+    color: #86836D !important;
+}
+
+.floatleft.small {
+   background: rgba(0, 0, 0, 0.1);
+}
+
+#changepasswordpanel .b {
+    background: rgba(0, 0, 0, 0.1);
+	color: #111111 !important;
+	
+}
+
+#changepasswordpanel .table {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 0px 0px 7px 7px !important;
+}
+
+/* don't remember genuinely */
+
+small.text-muted {
+    color: #111111 !important;
+}
+
+/* chat */
+
+div#chatMessageContainer {
+	color: #111111 !important;
+}
+
+/* attack */
+
+#attack {
+    background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+#attack .bottom {
+    background: #111111 !important;
+}
+
+/* bottom text  */
+
+.white.visible-sm {
+    color: #86836D !important;
+    text-shadow: none !important;
+}
+
+.clear.visible-sm {
+    display: none !important;
+}
+
+/* alerts */
+
+.alert {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #111111 !important;
 }
 
 
@@ -550,72 +539,7 @@ form th {
     color: #1E2952 !important;
 }
 
-
-#editdetailspanel .b {
-    color: #111111 !important;
-}
-
-
-.item-header {
-    color: #86836D !important;
-}
-
-
-.xlarge.b {
-    color: #1E2952 !important;
-}
-
-
-.b.floatleft {
-    color: #86836D !important;
-}
-
-
-.b.floatright {
-    color: #86836D !important;
-}
-    
-#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
-    font-size: 0px;
-}
-
-
-#player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
-    content: 'too recently';
-    font-size: 14px;
-}
-
-
-* {
-    text-transform: lowercase;
-	border: none !important;
-}
-
-
-.cave-grid img {
-    border-radius: 7px 7px 0px 0px !important;
-}
-
-
-.mound-grid img {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-.bigger img {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-button.button {
-     border-radius: 7px 7px 7px 7px !important;
-}
-
-
-input {
-     border-radius: 7px 7px 7px 7px !important;
-}
-
+/* box */
 
 .BOX {
 display: block;
@@ -627,11 +551,13 @@ background-color: #111111;
 overflow: hidden;
 border-radius: 7px 7px 7px 7px !important;
 }
+
 .coolbox:hover {
 background: rgb(1,1,1,1.1) !important;
    -webkit-transition: background-color ease-in-out 777ms !important;
     overflow: auto;
 }
+
 .coolbox {
 width: 350px;
 height: 170px;
@@ -645,63 +571,122 @@ margin-bottom: auto;
     -webkit-transition: background-color ease-in-out 777ms !important;
 }
 
-
-.xlarge.b > :nth-child(1) {
-    font-size: 0px;
-}
-
-
-.xlarge.b > :nth-child(1)::after {
-    content: 'little lion man' !important;
-    font-size: 18px;
-}
-
-
-.xlarge.b {
-    font-size: 0px;
-}
-
-
-.xlarge.b::after {
-    content: ', the silly' !important;
-    font-size: 18px;
-}
-
-
-.lion-image-block img {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-.right .right img {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
+/* scrollbars */
 
 ::-webkit-scrollbar {
   width: 10px !important;
   border: none !important;
+    background: #111111 !important;
 }
 
+div::-webkit-scrollbar {
+  width: 10px !important;
+  border: none !important;
+    background: #111111 !important;
+    border-radius: 7px !important;
+}
+
+textarea::-webkit-scrollbar {
+  width: 10px !important;
+  border: none !important;
+    background: #111111 !important;
+    border-radius: 7px !important;
+}
 
 ::-webkit-scrollbar-track {
   background: #111111;
     border-radius: 7px !important;
 }
 
-
 ::-webkit-scrollbar-thumb {
   background: #1E2952;
      border-radius: 7px !important;
 }
 
-
 ::-webkit-scrollbar-corner {
     background: #111111;
 }
 
+/* images */
 
+.lion-image-block img {
+    border-radius: 7px 7px 7px 7px !important;
+}
 
+.right .right img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.lion-image-block[data-image-type="headshot"] {
+	border-radius: 7px 7px 7px 7px !important;
+}
+
+.cave-grid img {
+    border-radius: 7px 7px 0px 0px !important;
+}
+
+.mound-grid img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.bigger img {
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+/* chatbox */
+
+div#txtChatContainer > div > span > a {
+    color: #A5A08F !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+div#txtChatContainer > div > span > a::hover {
+    color: #fff0db !important;
+    -webkit-transition: color ease-in-out 777ms;
+}
+
+input#txtChatInput {
+    background: #fff0db !important;
+    color: #111111 !important;
+}
+
+input#btnChatSend {
+    background-color: rgba(65,74,76,0.77) !important;
+    color: #111111 !important;
+}
+
+#btnLoadNewMessages {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+div#chatMessageContainer {
+	border-radius: 7px 7px 7px 7px !important;
+    background-color: rgba(65,74,76,0.77) !important;
+    color: #111111 !important;
+}
+
+.s-chat-message:nth-child(even) {
+	background-color: rgba(65,74,76,0.77) !important;
+    color: #111111 !important;
+}
+.s-chat-message:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.1) !important;
+    color: #111111 !important;
+}
+.s-chat-message__pinned {
+	background: rgba(0,0,0,0.1) !important;
+    color: #111111 !important;
+}
+.s-chat-message_timestamp {
+    color: #111111 !important;
+}
+
+div.channelMenu {
+    background: #C9CBA3 !important;
+    color: #111111 !important;
+}
+
+/* shooting stars */
 
 .night {
     position: absolute;
@@ -711,7 +696,6 @@ margin-bottom: auto;
     height: 10%;
     transform: rotateZ(50deg);
 }
-
 
 .shooting_star {
   position: absolute;
@@ -1030,61 +1014,4 @@ margin-bottom: auto;
   100% {
     transform: rotate(405deg);
   }
-}
-
-
-.left img {
-    border-radius: 7px 7px 7px 7px !important;
-}
-
-
-div.panel-body.small {
-    color: #86836D !important;
-}
-
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-}
-
-#commentBox::before {
-content: "comment box";
-background: #111111;
-color: #8E9F9C;
-height: 50px;
-display: block;
-padding: 7px !important;
-font-size: 24px;
-}
-div#commentBox {
-height: 50px;
-overflow-y: hidden !important;
-transition: 1s;
-}
-#commentBox:hover {
-height: 300px !important;
-transition: 1s;
-}
-textarea {
-   background: #fff0db !important; 
-}
-
-#comment {
-      background: #fff0db !important;
-}
-
-#editdetailspanel .right input {
-      background: #fff0db !important;
-}
-
-select {
-      background: #fff0db !important;
-}
-
-#changepasswordpanel .right input {
-      background: #fff0db !important;
-}
-
-.lion-image-block[data-image-type="headshot"] {
-	border-radius: 7px 7px 7px 7px !important;
 }
