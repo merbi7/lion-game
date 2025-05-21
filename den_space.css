@@ -618,3 +618,7 @@ input {
     background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(65,74,76,0.77) 70%) !important;
     color: #86836D !important;
 }
+
+* {
+	text-shadow: none !important;
+}
