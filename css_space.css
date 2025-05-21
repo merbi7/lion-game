@@ -226,12 +226,14 @@ input {
 
 .button {
     background: rgba(0,0,0,0.1) !important;
+    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(65,74,76,0.77) 70%) !important;
     color: #86836D !important;
 }
 
 input {
     border-radius: 7px 7px 7px 7px !important;
     background: rgba(0,0,0,0.1) !important;
+    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(65,74,76,0.77) 70%) !important;
     color: #86836D !important;
 }
 
