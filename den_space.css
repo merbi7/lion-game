@@ -608,14 +608,14 @@ textarea {
 
 .button {
     background: rgba(0,0,0,0.1) !important;
-    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+    background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
     color: #86836D !important;
 }
 
 input {
     border-radius: 7px 7px 7px 7px !important;
     background: rgba(0,0,0,0.1) !important;
-    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+    background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
     color: #86836D !important;
 }
 
