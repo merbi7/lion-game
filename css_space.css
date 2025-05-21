@@ -386,6 +386,10 @@ hr {
     font-size: 14px;
 }
 
+.top .floatright {
+    color: #1E2952 !important;
+}
+
 /* caves and mounds */
 
 .cave-grid {
