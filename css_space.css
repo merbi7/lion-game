@@ -225,13 +225,13 @@ input {
 }
 
 .button {
-    background: #111111 !important;
+    background: rgba(0,0,0,0.1) !important;
     color: #86836D !important;
 }
 
 input {
     border-radius: 7px 7px 7px 7px !important;
-    background: #111111 !important;
+    background: rgba(0,0,0,0.1) !important;
     color: #86836D !important;
 }
 
@@ -674,8 +674,8 @@ div#chatMessageContainer {
     color: #111111 !important;
 }
 .s-chat-message__pinned {
-	background: rgba(0,0,0,0.1) !important;
-    color: #111111 !important;
+	background: #111111 !important;
+    color: #1E2952 !important;
 }
 .s-chat-message_timestamp {
     color: #111111 !important;
