@@ -668,10 +668,6 @@ input#btnChatSend {
     color: #111111 !important;
 }
 
-#btnLoadNewMessages {
-    background: rgba(0, 0, 0, 0.1)
-}
-
 div#chatMessageContainer {
 	border-radius: 7px 7px 7px 7px !important;
     background-color: rgba(65,74,76,0.77) !important;
