@@ -604,19 +604,19 @@ input {
 }
 
 .button {
-    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+    background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
     color: #86836D !important;
 }
 
 input[type="button"] {
     border-radius: 7px 7px 7px 7px !important;
-   background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+   background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
     color: #86836D !important;
 }
 
 .floatright[type] {
     color: #86836D !important;
-    background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+    background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
 }
 
 button.gold {
