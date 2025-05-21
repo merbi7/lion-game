@@ -589,3 +589,11 @@ input {
     background: #fff0db;
     color: #111111;
 }
+
+.navbar-brand img {
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/ufo.gif") !important;
+    max-width: 200px;
+    max-height: 110px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
