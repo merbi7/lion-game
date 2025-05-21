@@ -616,7 +616,7 @@ input[type="button"] {
 
 .floatright[type] {
     color: #86836D !important;
-    background: linear-gradient(to left, rgba(0,0,0,0.1) 0%, rgba(30,41,82,0.77) 50%) !important;
+    background: rgba(0,0,0,0.1) !important;
 }
 
 button.gold {
