@@ -3,7 +3,7 @@
 /* big stuff */
 
 * {
-    text-transform: lowercase;
+    text-transform: lowercase !important;
 	border: none !important;
     text-shadow: none !important;
 }
