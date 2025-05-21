@@ -102,8 +102,19 @@ a:hover {
 }
 
 .table > tbody > tr > th {
-     background: #111111;
+    background: #111111;
     color: #111111;
+}
+
+.table > tbody > tr > th:nth-child(1) {
+    border-radius: 7px 0px 0px 0px !important;
+}
+
+.table > tbody > tr > th:nth-child(2) {
+    border-radius: 0px 7px 0px 0px !important;
+}
+
+.table.auto > tbody > tr > th {
     border-radius: 7px 7px 0px 0px !important;
 }
 
@@ -586,3 +597,12 @@ textarea {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #86836D;
 }
+
+.navbar-brand img {
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/ufo.gif") !important;
+    max-width: 200px;
+    max-height: 110px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
