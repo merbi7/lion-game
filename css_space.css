@@ -174,17 +174,14 @@ a:hover {
 }
 
 #commentBox::before {
-content: "comment box";
-background: #111111;
 color: #8E9F9C;
-height: 50px;
 display: block;
 padding: 7px !important;
 font-size: 24px;
 }
 
 div#commentBox {
-height: 50px;
+height: 45px;
 overflow-y: hidden !important;
 transition: 1s;
 }
@@ -545,26 +542,30 @@ form th {
 
 /* box */
 
-.BOX {
-display: block;
+.boxcontainer {
+display: flex;
 justify-content: center;
 align-items: center;
-height: 100px;
 margin: auto;
-background-color: #111111;
-overflow: hidden;
 border-radius: 7px 7px 7px 7px !important;
 }
 
-.coolbox:hover {
-background: rgb(1,1,1,1.1) !important;
-   -webkit-transition: background-color ease-in-out 777ms !important;
-    overflow: auto;
+.coolbox {
+width: 330px;
+height: 115px;
+overflow: hidden;
+background-color: #111111 !important;
+transition: width 1s, height 2s;
+border-radius: 7px 7px 7px 7px !important;
+color: #86836D !important;
+margin: 20px;
+margin-bottom: auto;
+    -webkit-transition: background-color ease-in-out 777ms !important;
 }
 
-.coolbox {
-width: 350px;
-height: 170px;
+.coolbox2 {
+width: 250px;
+height: 115px;
 overflow: hidden;
 background-color: #111111 !important;
 transition: width 1s, height 2s;
