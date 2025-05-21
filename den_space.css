@@ -621,5 +621,5 @@ input {
 
 * {
 	text-shadow: none !important;
-	text-transform: lowercase;
+	text-transform: lowercase !important;
 }
