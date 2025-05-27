@@ -692,15 +692,6 @@ div#chatMessageContainer {
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-@media screen and (max-width: 999px) { 
-.navbar li a {      
-    display: flex !important;
-    justify-content: center !important;
-        font-size: 20px;
-}
-
-}
-
 div.channelMenu {
     background: #C9CBA3 !important;
     color: #111111 !important;
