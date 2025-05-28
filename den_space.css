@@ -139,8 +139,8 @@ small {
 
 .center.b {
     color: #1E2952 !important;
-    background: #111111;
-    border-radius: 0px 0px 7px 7px !important;
+    background: rgba(0,0,0,0.1)
+    border-radius: 7px !important;
 }
 
 .b.floatleft {
