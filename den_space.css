@@ -695,3 +695,7 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #111111 !important;
 }
+
+.lion-image-block img:nth-child(1) {
+    display: none !important;
+}
