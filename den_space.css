@@ -679,7 +679,6 @@ div#chatMessageContainer {
     font-size: 20px !important;
     display: flex !important;
     padding-left: 50px !important;
-    justify-content: center !important;
 }
 
 .navbar li a:hover {
