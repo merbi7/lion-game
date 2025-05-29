@@ -596,6 +596,7 @@ textarea {
 .xsmall {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #86836D;
+	border-radius: 7px !important;
 }
 
 .navbar-brand img {
