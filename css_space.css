@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 /* big stuff */
@@ -192,6 +193,7 @@ transition: 1s;
 #commentBox:hover {
 height: 300px !important;
 transition: 1s;
+overflow: auto !important;
 }
 
 #comment {
@@ -240,6 +242,12 @@ textarea {
     border-radius: 7px !important;
 }
 
+select {
+    border-radius: 7px 7px 7px 7px !important;
+    background: rgba(0,0,0,0.1) !important;
+    color: #86836D !important;
+}
+
 /* panel bars */
 
 .top, th {
@@ -253,6 +261,7 @@ textarea {
 
 #about .bottom {
     background: #111111;
+    color: #86836D !important;
 }
 
 #player .top {
@@ -388,6 +397,18 @@ hr {
     color: #1E2952 !important;
 }
 
+.xlarge .text-muted {
+    color: rgba(0,0,0,0) !important;
+}
+
+.member-offline {
+    background: rgba(0,0,0,0.1) !important;
+}
+
+.member-online {
+    background: #1E2952 !important;
+}
+
 /* caves and mounds */
 
 .cave-grid {
@@ -489,6 +510,18 @@ hr {
 #changepasswordpanel .table {
     background-color: rgba(65,74,76,0.77) !important;
     border-radius: 0px 0px 7px 7px !important;
+}
+
+input:checked + .slider {
+   background: #1E2952 !important;
+}
+
+.slider {
+    background: rgba(0,0,0,0.1) !important;
+}
+
+.slider.round::before {
+    background: rgba(0,0,0,0.1) !important;
 }
 
 /* don't remember genuinely */
@@ -613,6 +646,27 @@ textarea::-webkit-scrollbar {
 
 ::-webkit-scrollbar-corner {
     background: #111111;
+}
+
+#commentBox::-webkit-scrollbar {
+  width: 10px !important;
+  border: none !important;
+    background: rgba(0,0,0,0.1) !important;
+    border-radius: 7px !important;
+}
+
+#commentBox::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1) !important;
+    border-radius: 7px !important;
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.1) !important;
+     border-radius: 7px !important;
+}
+
+#commentBox::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0.1) !important;
 }
 
 /* images */
