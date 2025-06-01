@@ -649,24 +649,7 @@ textarea::-webkit-scrollbar {
 }
 
 #commentBox::-webkit-scrollbar {
-  width: 10px !important;
-  border: none !important;
-    background: rgba(0,0,0,0.1) !important;
-    border-radius: 7px !important;
-}
-
-#commentBox::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.1) !important;
-    border-radius: 7px !important;
-}
-
-#commentBox::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.1) !important;
-     border-radius: 7px !important;
-}
-
-#commentBox::-webkit-scrollbar-corner {
-    background: rgba(0,0,0,0.1) !important;
+    display: none !important;
 }
 
 /* images */
