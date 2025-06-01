@@ -704,7 +704,7 @@ textarea::-webkit-scrollbar {
 }
 
 .birb {
-    content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15a35bd6-27ab-46cd-b8f1-cacb0a51d88c/dduycch-6b062ade-60ea-4f0a-acd6-d77b4783b23e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1YTM1YmQ2LTI3YWItNDZjZC1iOGYxLWNhY2IwYTUxZDg4Y1wvZGR1eWNjaC02YjA2MmFkZS02MGVhLTRmMGEtYWNkNi1kNzdiNDc4M2IyM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qFT5OLof3lDC5W1dM1vnupdyw-U7XFmAW6_IE4gflEA");
+    content: url("https://raw.githubusercontent.com/merbi7/lion-game/refs/heads/main/birb.gif");
     position: fixed;
     z-index: 1;
     bottom: 5px;
