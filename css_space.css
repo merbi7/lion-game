@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 /* big stuff */
@@ -338,12 +337,7 @@ table .bottom {
 }
 
 .xlarge.b > :nth-child(1) {
-    font-size: 0px;
-}
-
-.xlarge.b > :nth-child(1)::after {
-    content: 'little lion man' !important;
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 .xlarge.b {
