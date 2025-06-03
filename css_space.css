@@ -247,7 +247,7 @@ select {
     color: #86836D !important;
 }
 
-select:has(option:checked) {
+option:hover {
   color: #1E2952 !important;
 }
 
