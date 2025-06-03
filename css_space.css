@@ -247,6 +247,10 @@ select {
     color: #86836D !important;
 }
 
+select:has(option:checked) {
+  color: #1E2952 !important;
+}
+
 /* panel bars */
 
 .top, th {
