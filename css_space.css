@@ -247,7 +247,7 @@ select {
     color: #86836D !important;
 }
 
-option:hover {
+option:checked {
   background: #1E2952 !important;
 }
 
