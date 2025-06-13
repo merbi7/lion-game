@@ -321,10 +321,6 @@ table .bottom {
     border-radius: 0px 0px 7px 7px !important;
 }
 
-.b.center {
-    background: rgba(0,0,0,0.1);
-}
-
 /* main lion panel */
 
 #about {
@@ -477,10 +473,22 @@ hr {
     border-radius: 7px 7px 7px 7px !important;
 }
 
+/* reclaim */
+
+.b.center {
+    background: rgba(0,0,0,0.1);
+}
+
+table#reclaim.table {
+     background-color: rgba(65,74,76,0.77) !important;
+    border-radius: 7px;
+}
+
 /* settings */
 
 #editdetailspanel .table {
     background-color: rgba(65,74,76,0.77) !important;
+	border-radius: 0px 0px 7px 7px;
 }
 
 #editdetailspanel .b {
@@ -509,7 +517,6 @@ hr {
 #changepasswordpanel .b {
     background: rgba(0, 0, 0, 0.1);
 	color: #111111 !important;
-	
 }
 
 #changepasswordpanel .table {
@@ -559,8 +566,13 @@ div#chatMessageContainer {
     text-shadow: none !important;
 }
 
+.white.visible-xs {
+    color: #86836D !important;
+    text-shadow: none !important;
+}
+
 .clear.visible-sm {
-    display: none !important;
+	 color: #86836D !important;
 }
 
 /* alerts */
