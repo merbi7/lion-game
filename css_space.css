@@ -390,7 +390,7 @@ hr {
 }
 
 #player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
-    content: 'too recently';
+    content: 'meow';
     font-size: 14px;
 }
 
