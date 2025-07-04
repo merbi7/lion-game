@@ -703,7 +703,7 @@ textarea::-webkit-scrollbar {
     margin-top: 30px;
 }
 
-.merl {
+.birb {
     content: url("https://raw.githubusercontent.com/merbi7/web/refs/heads/main/merl.gif");
     position: fixed;
     z-index: 1;
