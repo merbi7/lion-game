@@ -706,7 +706,7 @@ div.channelMenu {
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-.merl {
+.birb {
     content: url("https://raw.githubusercontent.com/merbi7/web/refs/heads/main/merl.gif");
     position: fixed;
     z-index: 1;
