@@ -255,6 +255,9 @@ option:hover {
   background: #1E2952 !important;
 }
 
+center > .table th {
+    color: #1E2952 !important;
+}
 /* panel bars */
 
 .top, th {
@@ -390,7 +393,7 @@ hr {
 }
 
 #player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5)::after {
-    content: '¯\_(ツ)_/¯';
+    content: 'too recently';
     font-size: 14px;
 }
 
@@ -456,6 +459,10 @@ hr {
 
 #clans .left {
     background: rgba(0, 0, 0, 0) !important;
+}
+
+form div.left {
+     background: #111111;
 }
 
 /* dynasty and stuff */
