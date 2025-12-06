@@ -750,11 +750,13 @@ content: url("");
     position: relative;
     z-index: 1;
     bottom: 200px;
-    left: 255px;
-    max-height: 100px;
+    left: 300px;
     border: 2px black solid;
 }
 
+.birb img {
+    max-height: 100px !important;
+}
 
 /* chatbox */
 
@@ -804,4 +806,3 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
-
