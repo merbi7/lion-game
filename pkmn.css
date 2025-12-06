@@ -730,6 +730,7 @@ content: url("");
 
 .mound-grid img {
     border-radius: 7px 7px 7px 7px !important;
+    content:url("https://archives.bulbagarden.net/media/upload/e/eb/BugIC_RS.png");
 }
 
 .bigger img {
@@ -746,12 +747,13 @@ content: url("");
 }
 
 .birb {
-    content: url("");
-    position: fixed;
+    content: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/6/63/Pokemans_276.gif");
+    position: absolute;
     z-index: 1;
-    bottom: 5px;
-    right: 10px;
+    bottom: 2222px;
+    left: 670px;
     max-height: 100px;
+    transform: scalex();
 }
 
 /* chatbox */
