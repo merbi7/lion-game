@@ -12,8 +12,6 @@ table.table.auto > tbody {
    background: rgba(0, 0, 0, 0.1) !important;
 }
 
-}
-
 .table.auto {
      border-radius: 7px 7px 7px 7px !important;
 }
@@ -1125,4 +1123,5 @@ div.channelMenu {
     transform: rotate(405deg);
   }
 }
+
 
