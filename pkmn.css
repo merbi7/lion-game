@@ -747,14 +747,14 @@ content: url("");
 }
 
 .birb {
-    content: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/6/63/Pokemans_276.gif");
-    position: absolute;
+    position: relative;
     z-index: 1;
-    bottom: 2222px;
-    left: 670px;
+    bottom: 200px;
+    left: 255px;
     max-height: 100px;
-    transform: scalex();
+    border: 2px black solid;
 }
+
 
 /* chatbox */
 
@@ -804,3 +804,4 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
+
