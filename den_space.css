@@ -9,7 +9,9 @@ table.table.auto > tbody {
 }
 
 .auto.center {
-    background: none;
+   background: rgba(0, 0, 0, 0.1) !important;
+}
+
 }
 
 .table.auto {
@@ -1123,3 +1125,4 @@ div.channelMenu {
     transform: rotate(405deg);
   }
 }
+
