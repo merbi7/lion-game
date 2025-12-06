@@ -2,6 +2,40 @@
 
 /* big stuff */
 
+table.table.auto > tbody {
+    background-color: rgba(65,74,76,0.77) !important;
+    color: #111111;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.auto.center {
+   background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature {
+   background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.table.auto {
+     border-radius: 7px 7px 7px 7px !important;
+}
+center > .table .top {
+    color: #1E2952 !important;
+}
+
+.top th  {
+    color: #1E2952 !important;
+}
+
+.glyphicon-remove {
+    background: rgba(0,0,0,0.1) !important;
+    color: #86836D !important;
+}
+
+td > input {
+     background: #fff0db !important;
+}
+
 * {
     text-transform: lowercase !important;
 	border: none !important;
@@ -1097,3 +1131,8 @@ div.channelMenu {
     transform: rotate(405deg);
   }
 }
+
+
+
+
+
