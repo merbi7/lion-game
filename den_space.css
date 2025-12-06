@@ -12,7 +12,7 @@ table.table.auto > tbody {
    background: rgba(0, 0, 0, 0.1) !important;
 }
 
-div.feature {
+.feature {
    background: rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -23,7 +23,7 @@ center > .table .top {
     color: #1E2952 !important;
 }
 
-center > .table th  {
+.top th  {
     color: #1E2952 !important;
 }
 
@@ -1131,6 +1131,7 @@ div.channelMenu {
     transform: rotate(405deg);
   }
 }
+
 
 
 
