@@ -737,11 +737,11 @@ content: url("");
 }
 
 .navbar-brand img {
-    content: url("https://www.pngmart.com/files/22/Pokemon-Yellow-Logo-PNG-Pic.png") !important;
+    content: url("https://static.unboundwiki.com/wp-content/assets/images/2024/12/litleo-scaled-1.png") !important;
     max-width: 150px;
     max-height: 110px;
-    margin-left: 0px;
-    margin-top: 30px;
+    margin-left: 750px;
+    margin-top: 130px;
     position: absolute;
 }
 
