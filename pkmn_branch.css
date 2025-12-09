@@ -4,7 +4,7 @@ body {
 background: url(https://external-preview.redd.it/Ga24Es10Ast8ng42qrU-odZUfHMR6d8Ceofmbwy5rWw.jpg?auto=webp&s=617176bbdf15f717b2a77e448a3cdcb3a944a23c) top center fixed;
 
 background-size: 100%;
-color: #6a92f2;
+color: #667dab;
 font-family: "Pixelify Sans", sans-serif !important; !important;
 }
 
@@ -377,4 +377,5 @@ div.channelMenu {
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: rgba(0, 0, 0, 0.1) !important;
+
 }
