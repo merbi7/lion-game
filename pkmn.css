@@ -752,13 +752,18 @@ content: url("");
     bottom: 200px;
     left: 300px;
     border: 2px black solid;
-	overflow-y: hidden !important;
 }
 
 .birb img {
     max-height: 100px !important;
 }
 
+@media screen and (max-width: 700px) {
+  .birb {
+    visibility: hidden;
+    display: none;
+  }
+}
 /* chatbox */
 
 div#txtChatContainer > div > span > a {
@@ -807,4 +812,5 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
+
 
