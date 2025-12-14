@@ -738,6 +738,7 @@ content: url("");
 }
 
 .navbar-brand img {
+	display: none !important;
     content: url("https://static.unboundwiki.com/wp-content/assets/images/2024/12/litleo-scaled-1.png") !important;
     max-width: 150px;
     max-height: 110px;
@@ -812,6 +813,7 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
+
 
 
 
