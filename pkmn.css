@@ -759,7 +759,7 @@ content: url("");
     max-height: 100px !important;
 }
 
-#player img {
+.player img {
 	border-radius: 7px !important;
 }
 
@@ -817,6 +817,7 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
+
 
 
 
