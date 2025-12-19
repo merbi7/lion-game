@@ -759,6 +759,10 @@ content: url("");
     max-height: 100px !important;
 }
 
+#player img {
+	border-radius: 7px !important;
+}
+
 @media screen and (max-width: 700px) {
   .birb {
     visibility: hidden;
@@ -813,6 +817,7 @@ div.channelMenu {
     background: #C9CBA3 !important;
     color: #667dab !important;
 }
+
 
 
 
