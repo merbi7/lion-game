@@ -4,7 +4,7 @@
 
 table.table.auto > tbody {
    background-color: rgba(255,255,255,0.1) !important;
-    color: #667dab;
+    color: #CDCAF8;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -16,20 +16,20 @@ div.feature {
      border-radius: 7px 7px 7px 7px !important;
 }
 center > .table .top {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 center > .table th  {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 .glyphicon-remove {
     background: rgba(0,0,0,0.1) !important;
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 td > input {
-     background: #d9dff7 !important;
+     background: #9984EB !important;
 }
 
 * {
@@ -39,9 +39,9 @@ td > input {
 }
 
 body {
-background: url(https://external-preview.redd.it/Ga24Es10Ast8ng42qrU-odZUfHMR6d8Ceofmbwy5rWw.jpg?auto=webp&s=617176bbdf15f717b2a77e448a3cdcb3a944a23c) top center fixed;
+background: url(https://github.com/merbi7/lion-game/blob/main/night.jpg?raw=true) top center fixed;
 background-size: cover;
-color: #667dab !important;
+color: #CDCAF8 !important;
 font-family: "Pixelify Sans", sans-serif !important;
 }
 
@@ -55,36 +55,36 @@ font-family: "Pixelify Sans", sans-serif !important;
 .col-md-9 {
     background-color: rgba(1,0,255,0);
 }
-
-
-
+#frmGifting .table {
+    background-color: rgba(1,0,255,0) !important;
+}
 
 /* headings */
 
 h1 {
-    color: #f3f7fc;
+    color: #4055AA;
     text-align: center;
     font-size: 50px;
 }
 
 h2 {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 h3 {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 /* navbar */
 
 .navbar {
-    background-color: #6a92f2;
+    background-color: #121355;
     border-radius: 7px 7px 0px 0px !important;
     
 }
 
 .navbar li a {
-    color: #b0def8 !important;
+    color: #6A71BC !important;
     -webkit-transition: color ease-in-out 777ms;
     font-size: 20px !important;
     display: flex !important;
@@ -92,9 +92,9 @@ h3 {
 }
 
 .navbar li a:hover {
-    background: #6a92f2 !important;
+    background: #121355 !important;
     -webkit-transition: color ease-in-out 777ms;
-    color: #d9dff7 !important;
+    color: #9984EB !important;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -105,31 +105,31 @@ h3 {
 
 
 .breadcrumb {
-    background-color: #6a92f2;
+    background-color: #121355;
     border-radius: 7px 7px 7px 7px !important;
     
 }
 
 .breadcrumb > li {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 /* side panels */
 
 .panel {
-    background-color: #6a92f2 !important;
-    color: #667dab !important;
+    background-color: #121355 !important;
+    color: #CDCAF8 !important;
     box-shadow: none !important;
     border-radius: 7px 7px 7px 7px !important;
     
 }
 
 .progress div {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 .progress-bar {
-    background: #aee762;
+    background: #242D7A;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -140,32 +140,32 @@ h3 {
 
 
 .panel-default .small {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 
 .col-xs-12 .visible-lg .small {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 div.panel-body.small {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 .b.floatleft {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 
 .b.floatright {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 /* topbar */
 
 .topbar {
-    background-color: #6a92f2;
-    color: #f3f7fc !important;
+    background-color: #121355;
+    color: #4055AA !important;
     font-size: 20px;
     height: 50px;
     border-radius: 0px 0px 7px 7px !important;
@@ -174,22 +174,22 @@ div.panel-body.small {
 /* links */
 
 a {
-    color: #b0def8 !important;
+    color: #6A71BC !important;
     -webkit-transition: color ease-in-out 777ms;
 }
 
 .breadcrumb a {
-    color: #b0def8 !important;
+    color: #6A71BC !important;
     -webkit-transition: color ease-in-out 777ms;
 }
 
 .breadcrumb>li+li:before {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 a:hover {
    -webkit-transition: color ease-in-out 777ms;
-    color: #d9dff7 !important;
+    color: #9984EB !important;
 }
 
 /* comment box */
@@ -204,11 +204,11 @@ a:hover {
 }
 
 .xlarge.b {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 #commentBox::before {
-color: #f3f7fc;
+color: #4055AA;
 display: block;
 padding: 7px !important;
 font-size: 24px;
@@ -227,7 +227,11 @@ overflow: auto !important;
 }
 
 #comment {
-      background: #d9dff7 !important;
+      background: #9984EB !important;
+}
+
+input#comment {
+    color: #CDCAF8 !important;
 }
 
 /* buttons and text boxes */
@@ -237,11 +241,11 @@ select {
 }
 
 #editdetailspanel .right input {
-      background: #d9dff7 !important;
+      background: #9984EB !important;
 }
 
 select {
-      background: #d9dff7 !important;
+      background: #9984EB !important;
 }
 
 button.button {
@@ -253,46 +257,46 @@ input {
 }
 
 #changepasswordpanel .right input {
-      background: #d9dff7 !important;
+      background: #9984EB !important;
 }
 
 .button {
     background: rgba(0,0,0,0.1) !important;
-    color: #f3f7fc !important;
+    color: #CDCAF8 !important;
 }
 
 input {
     border-radius: 7px 7px 7px 7px !important;
     background: rgba(0,0,0,0.1) !important;
-    color: #f3f7fc !important;
+    color: #CDCAF8 !important;
 }
 
 textarea {
-   background: #d9dff7 !important; 
+   background: #9984EB !important; 
     border-radius: 7px !important;
 }
 
 select {
     border-radius: 7px 7px 7px 7px !important;
     background: rgba(0,0,0,0.1) !important;
-    color: #f3f7fc !important;
+    color: #CDCAF8 !important;
 }
 
 option:checked {
-  background: #aee762 !important;
+  background: #242D7A !important;
 }
 
 option:hover {
-  background: #aee762 !important;
+  background: #242D7A !important;
 }
 
 center > .table th {
-    color: #aee762 !important;
+    color: #CDCAF8 !important;
 }
 /* panel bars */
 
 .top, th {
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
     border-radius: 7px 7px 0px 0px !important;
 }    
 
@@ -301,57 +305,57 @@ center > .table th {
 }
 
 #about .bottom {
-    background-color: #6a92f2;
-    color: #f3f7fc !important;
+    background-color: #121355;
+    color: #4055AA !important;
 }
 
 #player .top {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
 }
 
 #sparring th {
-    background-color: #6a92f2;
-    color: #aee762 !important;
+    background-color: #121355;
+    color: #242D7A !important;
     border-radius: 7px 7px 0px 0px !important;
 }
 
 #allies .top {
-    background-color: #6a92f2 !important; !important;
-    color: #aee762 !important;
+    background-color: #121355 !important; !important;
+    color: #242D7A !important;
 }
 
 #allies .bottom {
-    background-color: #6a92f2;
+    background-color: #121355;
 }
 
 #clans .top {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
 }
 
 .table > tbody > tr > th {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
     border-radius: 7px 7px 0px 0px !important;
 }
 
 #editdetailspanel .bottom {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
 }
 
 #accountoptionspanel .bottom {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
 }
 
 #changepasswordpanel .bottom {
-    background-color: #6a92f2;
+    background-color: #121355;
 }
 
 table .bottom {
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
     border-radius: 0px 0px 7px 7px !important;
 }
 
@@ -363,8 +367,8 @@ table .bottom {
 }
 
 #about .left {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
     border-radius: 7px 0px 0px 7px !important;
 }
 
@@ -374,7 +378,7 @@ table .bottom {
 }
 
 #about .left b {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 .xlarge.b > :nth-child(1) {
@@ -398,8 +402,8 @@ table .bottom {
 }
 
 #player .left {
-    background-color: #6a92f2;
-    color: #667dab;
+    background-color: #121355;
+    color: #CDCAF8;
 }
 
 #player .auto .right {
@@ -411,12 +415,12 @@ hr {
 }
 
 .top > small {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 
 #player b {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
 }
 
 #player > tbody > tr.right > :nth-child(1) > table.inner-table.auto > tbody > tr > :nth-child(5) {
@@ -429,7 +433,7 @@ hr {
 }
 
 .top .floatright {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 .xlarge .text-muted {
@@ -441,20 +445,20 @@ hr {
 }
 
 .member-online {
-    background: #aee762 !important;
+    background: #242D7A !important;
 }
 
 /* caves and mounds */
 
 .cave-grid {
-    color: #f3f7fc !important;
-    background-color: #6a92f2;
+    color: #4055AA !important;
+    background-color: #121355;
     border-radius: 7px 7px 7px 7px !important;
 }
 
 .mound-grid {
-    color: #f3f7fc !important;
-    background-color: #6a92f2;
+    color: #4055AA !important;
+    background-color: #121355;
 
 }
 
@@ -493,17 +497,17 @@ hr {
 }
 
 form div.left {
-     background-color: #6a92f2;
+     background-color: #121355;
 }
 
 /* dynasty and stuff */
 
 .dynastylist .left {
-    background-color: #6a92f2;
+    background-color: #121355;
 }
 
 .col .left {
-    background-color: #6a92f2;
+    background-color: #121355;
 	
 }
 
@@ -531,7 +535,7 @@ table#reclaim.table {
 
 #editdetailspanel .b {
     background: rgba(0, 0, 0, 0.1);
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 #accountoptionspanel .table {
@@ -544,8 +548,8 @@ table#reclaim.table {
 }
 
 .item-header {
-    background-color: #6a92f2;
-    color: #f3f7fc !important;
+    background-color: #121355;
+    color: #4055AA !important;
 }
 
 .floatleft.small {
@@ -554,7 +558,7 @@ table#reclaim.table {
 
 #changepasswordpanel .b {
     background: rgba(0, 0, 0, 0.1);
-	color: #667dab !important;
+	color: #CDCAF8 !important;
 }
 
 #changepasswordpanel .table {
@@ -563,7 +567,7 @@ table#reclaim.table {
 }
 
 input:checked + .slider {
-   background: #aee762 !important;
+   background: #242D7A !important;
 }
 
 .slider {
@@ -577,13 +581,13 @@ input:checked + .slider {
 /* don't remember genuinely */
 
 small.text-muted {
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 /* chat */
 
 div#chatMessageContainer {
-	color: #667dab !important;
+	color: #CDCAF8 !important;
 }
 
 /* attack */
@@ -594,23 +598,23 @@ div#chatMessageContainer {
 }
 
 #attack .bottom {
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
 }
 
 /* bottom text  */
 
 .white.visible-sm {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
     text-shadow: none !important;
 }
 
 .white.visible-xs {
-    color: #f3f7fc !important;
+    color: #4055AA !important;
     text-shadow: none !important;
 }
 
 .clear.visible-sm {
-	 color: #f3f7fc !important;
+	 color: #4055AA !important;
 }
 
 /* alerts */
@@ -618,17 +622,17 @@ div#chatMessageContainer {
 .alert {
     background: rgba(0, 0, 0, 0.1) !important;
     border-radius: 7px 7px 7px 7px !important;
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 
 #clans .top {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 
 form th {
-    color: #aee762 !important;
+    color: #242D7A !important;
 }
 
 /* box */
@@ -645,10 +649,10 @@ border-radius: 7px 7px 7px 7px !important;
 width: 330px;
 height: 115px;
 overflow: hidden;
-background-color: #6a92f2 !important;
+background-color: #121355 !important;
 transition: width 1s, height 2s;
 border-radius: 7px 7px 7px 7px !important;
-color: #f3f7fc !important;
+color: #4055AA !important;
 margin: 20px;
 margin-bottom: auto;
     -webkit-transition: background-color ease-in-out 777ms !important;
@@ -658,10 +662,10 @@ margin-bottom: auto;
 width: 250px;
 height: 115px;
 overflow: hidden;
-background-color: #6a92f2 !important;
+background-color: #121355 !important;
 transition: width 1s, height 2s;
 border-radius: 7px 7px 7px 7px !important;
-color: #f3f7fc !important;
+color: #4055AA !important;
 margin: 20px;
 margin-bottom: auto;
     -webkit-transition: background-color ease-in-out 777ms !important;
@@ -672,35 +676,35 @@ margin-bottom: auto;
 ::-webkit-scrollbar {
   width: 10px !important;
   border: none !important;
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
 }
 
 div::-webkit-scrollbar {
   width: 10px !important;
   border: none !important;
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
     border-radius: 7px !important;
 }
 
 textarea::-webkit-scrollbar {
   width: 10px !important;
   border: none !important;
-    background-color: #6a92f2 !important; !important;
+    background-color: #121355 !important; !important;
     border-radius: 7px !important;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #6a92f2;
+  background-color: #121355;
     border-radius: 7px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #aee762;
+  background: #242D7A;
      border-radius: 7px !important;
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: #6a92f2;
+    background-color: #121355;
 }
 
 #commentBox::-webkit-scrollbar {
@@ -711,8 +715,6 @@ textarea::-webkit-scrollbar {
 
 .lion-image-block img {
     border-radius: 7px 7px 7px 7px !important;
-    content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e57c0ca5-c162-43e7-b0dc-40f215c30321/dks6a8z-2bb6a125-d3ae-4b1d-bb74-8577400ebb3c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lNTdjMGNhNS1jMTYyLTQzZTctYjBkYy00MGYyMTVjMzAzMjEvZGtzNmE4ei0yYmI2YTEyNS1kM2FlLTRiMWQtYmI3NC04NTc3NDAwZWJiM2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Yg8SDrkEZsc3v1UjKaJUI851xokwFykcgjYbgCyQy3U");
-    max-width: 200px;
 }
 
 .right .right img {
@@ -726,11 +728,32 @@ content: url("");
 
 .cave-grid img {
     border-radius: 7px 7px 0px 0px !important;
+    content: url("https://github.com/merbi7/lion-game/blob/main/box_pokecenter.png?raw=true");
+}
+
+a[href$="unsorted.php?id=284672"]> div.cave-grid > img {
+content: url("https://github.com/merbi7/lion-game/blob/main/box_simple.png?raw=true") !important;
+}
+
+a[href$="lionoverview.php?id=284672"] > div.cave-grid > img {
+content: url("https://github.com/merbi7/lion-game/blob/main/box_savanna.png?raw=true") !important;
+}
+
+a[href$="255312"]>div.cave-grid>img {
+content: url("https://archives.bulbagarden.net/media/upload/0/0a/Box_Cave_E.png") !important;
+}
+
+a[href$="462379"]>div.cave-grid>img {
+content: url("https://archives.bulbagarden.net/media/upload/0/0a/Box_Cave_E.png") !important;
+}
+
+a[href$="473166"]>div.cave-grid>img {
+content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=true") !important;
 }
 
 .mound-grid img {
     border-radius: 7px 7px 7px 7px !important;
-    content:url("https://archives.bulbagarden.net/media/upload/e/eb/BugIC_RS.png");
+    content:url("https://github.com/merbi7/lion-game/blob/main/bug.png?raw=true");
 }
 
 .bigger img {
@@ -738,13 +761,13 @@ content: url("");
 }
 
 .navbar-brand img {
-	display: none !important;
-    content: url("https://static.unboundwiki.com/wp-content/assets/images/2024/12/litleo-scaled-1.png") !important;
-    max-width: 150px;
-    max-height: 110px;
-    margin-left: 750px;
-    margin-top: 130px;
+	display: inherit !important;
+    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+    margin-left: -20px;
+    margin-top: -10px;
     position: absolute;
+    max-height: 100px;
+    transform: scalex(-1);
 }
 
 .birb {
@@ -752,7 +775,6 @@ content: url("");
     z-index: 1;
     bottom: 200px;
     left: 300px;
-    border: 2px black solid;
 }
 
 .birb img {
@@ -769,59 +791,52 @@ table#player img {
     display: none;
   }
 }
+
 /* chatbox */
 
 div#txtChatContainer > div > span > a {
-    color: #b0def8 !important;
+    color: #6A71BC !important;
     -webkit-transition: color ease-in-out 777ms;
 }
 
 div#txtChatContainer > div > span > a::hover {
-    color: #d9dff7 !important;
+    color: #9984EB !important;
     -webkit-transition: color ease-in-out 777ms;
 }
 
 input#txtChatInput {
-    background: #d9dff7 !important;
-    color: #667dab !important;
+    background: #9984EB !important;
+    color: #CDCAF8 !important;
 }
 
 input#btnChatSend {
    background-color: rgba(255,255,255,0.1) !important;
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 div#chatMessageContainer {
 	border-radius: 7px 7px 7px 7px !important;
    background-color: rgba(255,255,255,0.1) !important;
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 .s-chat-message:nth-child(even) {
 	background-color: rgba(0,0,0,0.1) !important;
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 .s-chat-message:nth-child(odd) {
 	background: rgba(0, 0, 0, 0.1) !important;
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 .s-chat-message__pinned {
-	background-color: #6a92f2 !important; !important;
-    color: #aee762 !important;
+	background-color: #121355 !important; !important;
+    color: #242D7A !important;
 }
 .s-chat-message_timestamp {
-    color: #667dab !important;
+    color: #CDCAF8 !important;
 }
 
 div.channelMenu {
-    background: #C9CBA3 !important;
-    color: #667dab !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    color: #CDCAF8 !important;
 }
-
-
-
-
-
-
-
-
