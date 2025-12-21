@@ -728,7 +728,7 @@ content: url("");
 
 .cave-grid img {
     border-radius: 7px 7px 0px 0px !important;
-    content: url("https://github.com/merbi7/lion-game/blob/main/box_pokecenter.png?raw=true");
+    content: url("https://github.com/merbi7/lion-game/blob/main/box_center.png?raw=true");
 	max-width: 150px !important;
 }
 
@@ -841,6 +841,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
