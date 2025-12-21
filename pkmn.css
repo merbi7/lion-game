@@ -740,11 +740,11 @@ content: url("https://github.com/merbi7/lion-game/blob/main/box_savanna.png?raw=
 }
 
 a[href$="255312"]>div.cave-grid>img {
-content: url("https://archives.bulbagarden.net/media/upload/0/0a/Box_Cave_E.png") !important;
+content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=true") !important;
 }
 
 a[href$="462379"]>div.cave-grid>img {
-content: url("https://archives.bulbagarden.net/media/upload/0/0a/Box_Cave_E.png") !important;
+content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=true") !important;
 }
 
 a[href$="473166"]>div.cave-grid>img {
@@ -840,3 +840,4 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
