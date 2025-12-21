@@ -452,7 +452,7 @@ hr {
 
 .cave-grid {
     color: #4055AA !important;
-    background-color: #121355;
+    background-color: rgba(0,0,0,0);
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -841,5 +841,6 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
