@@ -284,7 +284,13 @@ textarea {
 }
 
 .navbar-brand img {
-    display: none !important;
+	display: inherit !important;
+    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+    margin-left: -20px;
+    margin-top: -10px;
+    position: absolute;
+    max-height: 100px;
+    transform: scalex(-1);
 }
 
 .button {
@@ -388,3 +394,4 @@ div.channelMenu {
 .bottom select {
     color: #667dab !important;
 }
+
