@@ -180,7 +180,7 @@ input {
 }
 
 .table .right a {
-	background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0) !important;
     border-radius:  7px;
     border: none !important;
 }
@@ -377,14 +377,8 @@ div.channelMenu {
     color: #f3f7fc !important;
 }
 
-.navbar-brand img {
-	display: inherit !important;
-    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
-    margin-left: -20px;
-    margin-top: -10px;
-    position: absolute;
-    max-height: 100px;
-    transform: scalex(-1);
+.lion-image-block img:nth-child(1) {
+    display: none !important;
 }
 
 .right select {
@@ -394,4 +388,3 @@ div.channelMenu {
 .bottom select {
     color: #667dab !important;
 }
-
