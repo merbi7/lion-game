@@ -9,8 +9,7 @@ font-family: "Pixelify Sans", sans-serif !important;
 
 .container.main {
     background-color: rgba(255,255,255,0.1) !important;
-    box-shadow: none !important;
-    box-shadow: rgba(17,17,17,0.07) 0px 30px 90px 30px inset !important;
+    box-shadow: #6a92f2 0px 0px 70px !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -175,19 +174,19 @@ input {
 }
 
 .table .right_odd a {
-	background-color: #f3f7fc !important;
+	background-color: rgba(0,0,0,0) !important;
     border-radius:  7px;
-    border: #f3f7fc 1px solid !important;
+    border: none !important;
 }
 
 .table .right a {
-	background-color: #f3f7fc !important;
+	background-color: rgba(0,0,0,0) !important;
     border-radius:  7px;
-    border: #f3f7fc 1px solid !important;
+    border: none !important;
 }
 
 .table {
-    background-color: rgba(255,255,255,0.1) !important;
+    background-color: rgba(0,0,0,0.1) !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -378,8 +377,14 @@ div.channelMenu {
     color: #f3f7fc !important;
 }
 
-.lion-image-block img:nth-child(1) {
-    display: none !important;
+.navbar-brand img {
+	display: inherit !important;
+    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+    margin-left: -20px;
+    margin-top: -10px;
+    position: absolute;
+    max-height: 100px;
+    transform: scalex(-1);
 }
 
 .right select {
@@ -389,3 +394,4 @@ div.channelMenu {
 .bottom select {
     color: #667dab !important;
 }
+
