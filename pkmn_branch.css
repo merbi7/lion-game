@@ -9,8 +9,7 @@ font-family: "Pixelify Sans", sans-serif !important; !important;
 
 .container.main {
     background-color: rgba(255,255,255,0.1) !important;
-    box-shadow: none !important;
-    box-shadow: rgba(17,17,17,0.07) 0px 30px 90px 30px inset !important;
+    box-shadow: #6a92f2 0px 0px 70px !important;
     border-radius: 7px 7px 7px 7px !important;
 }
 
@@ -263,11 +262,13 @@ input {
 }
 
 .navbar-brand img {
-    display: none !important;
-    max-width: 200px;
-    max-height: 110px;
-    margin-left: 30px;
-    margin-top: 30px;
+	display: inherit !important;
+    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+    margin-left: -20px;
+    margin-top: -10px;
+    position: absolute;
+    max-height: 100px;
+    transform: scalex(-1);
 }
 
 * {
@@ -378,4 +379,5 @@ div.channelMenu {
     background-color: rgba(0, 0, 0, 0.1) !important;
 
 }
+
 
