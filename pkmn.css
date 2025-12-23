@@ -798,6 +798,15 @@ table#player img {
   }
 }
 
+.merl {
+    content: url("https://raw.githubusercontent.com/merbi7/web/refs/heads/main/merl.gif");
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 10px;
+    max-height: 100px;
+}
+
 /* chatbox */
 
 div#txtChatContainer > div > span > a {
@@ -846,6 +855,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
