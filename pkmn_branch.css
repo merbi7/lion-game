@@ -380,4 +380,16 @@ div.channelMenu {
 
 }
 
+.merl {
+    content: url("https://raw.githubusercontent.com/merbi7/web/refs/heads/main/merl.gif");
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 10px;
+    max-height: 125px;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/a338907e-7c24-4a66-9ca3-629b453acc61/d8em4ip-78517fe8-c604-480b-9ec7-7fef75e6a398.png");
+    background-size: cover;
+    border-radius: 7px;
+    padding: 35px;
+}
 
