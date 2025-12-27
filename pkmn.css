@@ -630,8 +630,14 @@ div#chatMessageContainer {
     background: rgba(0, 0, 0, 0.1) !important;
     border-radius: 7px 7px 7px 7px !important;
     color: #CDCAF8 !important;
+	z-index: 2 !important;
+	position: relative !important;
 }
 
+.feature {
+    z-index: 2 !important;
+    position: relative !important;
+}
 
 #clans .top {
     color: #242D7A !important;
@@ -861,6 +867,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
