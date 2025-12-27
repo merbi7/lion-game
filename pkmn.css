@@ -769,7 +769,7 @@ content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=tru
 }
 
 .navbar-brand img {
-	display: inherit !important;
+	display: none !important;
     content: none !important;
     margin-left: -20px;
     margin-top: -10px;
@@ -802,11 +802,15 @@ table#player img {
 
 .koi {
     position: relative;
-    bottom: 340px !important;
+    bottom: 270px !important;
     left: -30px !important;
     max-width: 0px !important;
     max-height: 0px !important;
     z-index: 1;
+}
+
+.koi img {
+    max-width: 350px;
 }
 
 /* chatbox */
@@ -857,6 +861,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
