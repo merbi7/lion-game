@@ -268,8 +268,8 @@ input {
 }
 
 .navbar-brand img {
-	display: inherit !important;
-    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+	display: none !important;
+    content: none !important;
     margin-left: -20px;
     margin-top: -10px;
     position: absolute;
@@ -398,5 +398,6 @@ div.channelMenu {
     border-radius: 7px;
     padding: 35px;
 }
+
 
 
