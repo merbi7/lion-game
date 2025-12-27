@@ -808,7 +808,7 @@ table#player img {
 
 .koi {
     position: relative;
-    bottom: 270px !important;
+    bottom: 255px !important;
     left: 0px !important;
     max-width: 0px !important;
     max-height: 0px !important;
@@ -867,6 +867,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
