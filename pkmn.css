@@ -819,6 +819,16 @@ table#player img {
     max-width: 350px;
 }
 
+@media screen and (max-width: 700px) {
+  .koi img {
+      max-width: 200px !important;
+    }
+    .koi {
+        bottom:  190px !important;
+        left: 90px !important;
+    }
+}
+
 /* chatbox */
 
 div#txtChatContainer > div > span > a {
@@ -867,6 +877,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
