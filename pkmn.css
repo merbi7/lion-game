@@ -770,7 +770,7 @@ content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=tru
 
 .navbar-brand img {
 	display: inherit !important;
-    content: url("https://github.com/merbi7/lion-game/blob/main/solgaleo.png?raw=true") !important;
+    content: none !important;
     margin-left: -20px;
     margin-top: -10px;
     position: absolute;
@@ -781,7 +781,7 @@ content: url("https://github.com/merbi7/lion-game/blob/main/box_cave.png?raw=tru
 .birb {
     position: relative;
     z-index: 1;
-    bottom: 170px;
+    bottom: 180px;
     left: 300px;
 }
 
@@ -857,6 +857,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
