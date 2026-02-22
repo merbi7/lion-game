@@ -407,3 +407,6 @@ div.channelMenu {
     color: #667dab !important;
 }
 
+img {
+	border-radius: 7px;
+}
