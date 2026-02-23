@@ -409,6 +409,10 @@ div.channelMenu {
 
 img {
 	border-radius: 7px;
-	border: #6a92f2 1px solid;
 }
 
+.boris {
+    width: 350px;
+    border-radius: 7px;
+    background: #6a92f2;
+}
