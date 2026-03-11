@@ -74,8 +74,7 @@ h1 {
 .topbar {
    background-color: #6a92f2;
     color: #f3f7fc !important;
-    font-size: 20px;
-    height: 50px;
+    font-size: 17px;
     border-radius: 0px 0px 7px 7px !important;
 }
 
@@ -424,5 +423,6 @@ img {
     background: #6a92f2;
 	padding: 7px;
 }
+
 
 
