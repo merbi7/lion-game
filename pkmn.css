@@ -171,6 +171,7 @@ div.panel-body.small {
 .topbar {
     background-color: #121355;
     color: #4055AA !important;
+	font-size: 17px;
     border-radius: 0px 0px 7px 7px !important;
 }
 
@@ -878,6 +879,7 @@ div.channelMenu {
     background: rgba(0, 0, 0, 0.1) !important;
     color: #CDCAF8 !important;
 }
+
 
 
 
